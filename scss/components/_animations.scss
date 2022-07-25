@@ -1,0 +1,29 @@
+/* ------------------- Aplicamos Animacion al Logo del Header que acompaña al tiulo de la Pagina -----
+ */
+@keyframes Logo{
+    0%{
+        transform: rotateY(90deg);
+        transition-duration: .5s;
+    }    
+    25% {
+        transform: rotateY(90deg);
+        transition-duration: .5s;
+    }
+
+    
+    50% {
+        transform: rotateY(180deg);
+        transition-duration: .5s;
+    }
+
+    75% {
+        transform: rotateY(270deg);
+        transition-duration: .5s;
+    }
+
+    100% {
+        transform: rotateY(360deg);
+        transition-duration: .5s;
+
+    }
+}

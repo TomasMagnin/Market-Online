@@ -1,0 +1,798 @@
+@charset "UTF-8";
+/* ------------------------------------ Reseteamos los valores por Default del Navegador ----------------------------- */
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.letraTitulo3REM {
+  font-size: 3rem;
+  font-weight: 700;
+  font-family: "Roboto";
+}
+
+.letraTitulo2 {
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: "Roboto";
+}
+
+.letraSubTitulo2REM {
+  font-size: 2rem;
+  font-weight: 400;
+  font-family: "Roboto";
+}
+
+.letraTexto1 {
+  font-size: 1rem;
+  font-weight: 100;
+  font-family: Verdana;
+}
+
+.letraTexto2 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  font-family: Verdana;
+}
+
+/* ------------------------------------ Aplicamos Variables ----------------------------- */
+:root {
+  --clr-violetae: blueviolet;
+  --clr-ceniza: whitesmoke;
+  --clr-azulo: #203239;
+  --clr-naranja: orange;
+  --clr-oranred: orangered;
+  --clr-gris: #777;
+  --clr-negro: black;
+}
+
+/* VARIABLES */
+.boton, .botonContactos, .botonPages, .botonHome {
+  background-color: var(--clr-ceniza);
+  color: var(--clr-ceniza);
+  font-weight: 700;
+}
+.boton:hover, .botonContactos:hover, .botonPages:hover, .botonHome:hover {
+  background-color: var(--clr-naranja);
+  transition: all 0.2s;
+}
+
+.botonHome {
+  width: 100px;
+  padding: 5px 10px;
+  text-align: center;
+  border: solid 2px var(--clr-azulo);
+  text-decoration: none;
+  background-color: var(--clr-ceniza);
+  color: var(--clr-azulo);
+  border-radius: 5px;
+}
+.botonHome:hover {
+  background-color: var(--clr-naranja);
+  color: var(--clr-negro);
+  transition: all 0.2s;
+}
+
+.botonPages {
+  width: 110px;
+  padding: 5px 10px;
+  font-weight: 100;
+  text-align: center;
+  border: solid 2px var(--clr-ceniza);
+  text-decoration: none;
+  background-color: var(--clr-ceniza);
+  color: var(--clr-azulo);
+  border-radius: 5px;
+}
+.botonPages:hover {
+  background-color: var(--clr-oranred);
+  color: var(--clr-ceniza);
+  transition: all 0.2s;
+}
+
+.botonContactos {
+  width: 110px;
+  padding: 6px 10px;
+  margin: 5px 5px;
+  font-weight: 100;
+  text-align: center;
+  border: solid 2px var(--clr-ceniza);
+  text-decoration: none;
+  background-color: var(--clr-ceniza);
+  color: var(--clr-azulo);
+  border-radius: 5px;
+}
+.botonContactos:hover {
+  background-color: var(--clr-oranred);
+  color: var(--clr-ceniza);
+  transition: all 0.2s;
+}
+
+.botonInstagram {
+  background: orangered;
+}
+
+.botonFacebook {
+  background-color: rgba(0, 38, 255, 0.753);
+}
+
+.botonTwitter {
+  background-color: lightblue;
+}
+
+/* ------------------------------------ Header ----------------------------------------------------------------------- */
+/*------------------------------------------- Titulo, Imagen ----------------------------------------------------------*/
+header {
+  background: var(--clr-violetae);
+}
+
+.header-Titulo-Imagen {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  padding: 10px;
+  color: var(--clr-ceniza);
+  background: var(--clr-violetae);
+}
+
+.header-img img {
+  margin-left: 10px;
+  border-radius: 10px;
+  width: 6vw;
+  animation-name: Logo;
+  animation-duration: 10s;
+  transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+  animation-iteration-count: infinite;
+}
+
+/*------------------------------------------- Titulo, Imagen ----------------------------------------------------------*/
+/* -------------------------------------------- Buscador --------------------------------------------------------------*/
+.buscador {
+  display: flex;
+  justify-content: center;
+}
+.buscador input {
+  width: 55vw;
+  height: 40px;
+  background-color: var(--clr-ceniza);
+  border-radius: 5px;
+  border: var(--clr-ceniza) 3px solid;
+}
+.buscador-icon img {
+  width: 50px;
+  height: 40px;
+  padding: 2px;
+  margin-bottom: 4px;
+  color: var(--clr-ceniza);
+  background-color: var(--clr-ceniza);
+  border: var(--clr-ceniza) 3px solid;
+  border-radius: 5px;
+}
+.buscador-icon :hover {
+  background-color: var(--clr-naranja);
+  transform: scale(1.05);
+  transition: all 0.3s;
+}
+
+/* -------------------------------------------- Fin Buscador ----------------------------------------------------------*/
+/* -------------------------------------------- Navbar ----------------------------------------------------------------*/
+.navbar {
+  /* padding de la Nav Serch */
+  --bs-navbar-padding-x: 5px;
+  --bs-navbar-padding-y: 1rem;
+  /* Color de Font Nav */
+  --bs-navbar-color: whitesmoke;
+  /* Hover nav color */
+  --bs-navbar-hover-color: whitesmoke;
+  /* Boton Home  */
+  --bs-navbar-active-color: whitesmoke;
+  /* Subtit Categoria */
+  --bs-navbar-brand-font-size: 1.5rem;
+  --bs-navbar-brand-color: whitesmoke;
+  --bs-navbar-brand-hover-color: whitesmoke;
+  --bs-navbar-nav-link-padding-x: 1rem;
+  /* Toggler */
+  --bs-navbar-toggler-padding-y: 0.50rem;
+  --bs-navbar-toggler-padding-x: 0.75rem;
+  --bs-navbar-toggler-font-size: 1.5rem;
+  --bs-navbar-toggler-border-color: whitesmoke;
+  --bs-navbar-toggler-border-radius: 0.4rem;
+  --bs-navbar-toggler-focus-width: 0.35rem;
+  --bs-navbar-toggler-transition: box-shadow 0.15s ease-in-out;
+}
+
+.nav-item :hover {
+  width: 150px;
+  text-align: center;
+  padding-right: 5px;
+  transform: scale(1.01);
+  background: var(--clr-naranja);
+  font-weight: 400;
+  transition: all 0.3s;
+  border-radius: 5px;
+}
+
+/* ---------------------------------------- Fin Navbar ----------------------------------------------------------------*/
+/* ------------------- Aplicamos Animacion al Logo del Header que acompaña al tiulo de la Pagina -----
+ */
+@keyframes Logo {
+  0% {
+    transform: rotateY(90deg);
+    transition-duration: 0.5s;
+  }
+  25% {
+    transform: rotateY(90deg);
+    transition-duration: 0.5s;
+  }
+  50% {
+    transform: rotateY(180deg);
+    transition-duration: 0.5s;
+  }
+  75% {
+    transform: rotateY(270deg);
+    transition-duration: 0.5s;
+  }
+  100% {
+    transform: rotateY(360deg);
+    transition-duration: 0.5s;
+  }
+}
+/* ------------------------------------------------ Main Index ------------------------------------------------------------- */
+.card__main {
+  background-color: var(--clr-violetae);
+  border: black solid 3px;
+  background-color: var(--clr-azulo);
+}
+
+.card__container {
+  color: var(--clr-ceniza);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card__container > h2 {
+  margin-top: 20px;
+}
+.card__container__titulo {
+  padding: 5px;
+}
+.card__container__texto {
+  padding: 5px;
+}
+.card__container__gallery {
+  border: solid var(--clr-ceniza) 3px;
+  background: var(--clr-violetae);
+  border-radius: 25px;
+  width: 70vw;
+  height: 70vh;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas: "1 2 3" "4 5 6";
+  justify-items: center;
+  align-items: center;
+  margin: 20px;
+  padding: 20px;
+}
+.card__container__gallery__product {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.card__container__gallery__product img {
+  width: 13vw;
+  margin: 10px;
+  border: solid 2px var(--clr-azulo);
+  border-radius: 8px;
+  background-size: cover;
+}
+
+/* ------------------------------------------------ Main Paginas Secuandarias ------------------------------------------------------------- */
+.tarjetas__conenedor {
+  background-color: var(--clr-azulo);
+  color: var(--clr-ceniza);
+}
+
+.tarjetas__title {
+  background-color: var(--clr-oranred);
+  border-radius: 10px;
+}
+
+.tarjeta1 {
+  background-color: var(--clr-naranja);
+}
+.tarjeta1__img {
+  /* margin: 1px; */
+  /* width: 100%; */
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ------------------------------------------------ Pagina Quienes Somos ---------------------------------------------------------- */
+.QuienesSomos {
+  background-color: var(--clr-ceniza);
+}
+
+/* .tarjeta_QS_logo_img img {
+
+    object-fit: cover;
+
+} 
+ */
+/* .titulo_articulo{
+    color: var(--clr-gris);
+    text-align: center; 
+    padding-top: 15px; 
+    position: relative;
+    top: 40px;
+} */
+/* .tarjeta_QS{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+} */
+/* 
+.QuienesSomos{
+    background-color: var(--clr-ceniza);  
+    height: 100%;
+}
+.titulo_articulo{
+    color: var(--clr-gris);
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 15px; 
+    position: relative;
+    top: 40px;
+}
+.card_QS{
+
+    display: grid;
+    grid-template-rows: 75px 250px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 
+    "tl tl"
+    "tx im";
+    justify-content: center;
+    align-items: center;
+    margin-inline: calc(10vw);
+    padding-top: 15px;   
+    &_titulo{
+        grid-area: tl;
+        background-color: var(--clr-azulo);
+        height: 40px;
+        width: 80vw;
+        border-radius: 10px;
+        font-size: 2rem;
+        color: var(--clr-ceniza);
+        text-align: center;
+        font-weight: 700;
+    }
+    &_texto{
+        grid-area: tx;
+        border-radius: 10px;
+        background-color: var(--clr-ceniza);
+        text-align: justify;
+        font-size: 1.6rem;
+        font-weight: 600;
+        color: var(--clr-gris);
+    }
+    &_logo{
+        grid-area: im;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 5px;
+        &_img{
+          width: 90%;
+          border-radius: 5px;   
+        }
+    }
+}  
+picture :last-child{
+    margin-bottom: 40px;*/
+/* ----------------------------------------------- Formulario de Contactos ------------------------------------------- */
+.section {
+  background-color: var(--clr-azulo);
+  padding-bottom: 4rem;
+  padding-bottom: 10px;
+  color: var(--clr-ceniza);
+  border-top: var(--clr-azulo) 4px solid;
+}
+
+.titulo-formulario {
+  font-size: 2rem;
+  color: var(--clr-naranja);
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700; */
+  padding: auto;
+  margin: 15px;
+  padding: 5px;
+  text-align: center;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0px 15px 0px;
+  flex-wrap: wrap;
+}
+.formulario_input {
+  padding: 5px;
+  margin: 15px 0px 15px 0px;
+  width: 75vw;
+  max-width: 597px;
+  border: 5px solid var(--clr-ceniza);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.formulario_input_buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.formulario_input > input {
+  max-width: 577px;
+  border-radius: 8px;
+  padding: 5px;
+  text-align: center;
+}
+.formulario_input > input:hover {
+  background-color: var(--clr-violetae);
+  color: var(--clr-ceniza);
+}
+.formulario_input > select {
+  border-radius: 8px;
+  text-align: center;
+}
+.formulario_input > label {
+  text-align: center;
+  margin-bottom: 3px;
+}
+.formulario_input > p {
+  text-align: center;
+}
+.formulario_input :active {
+  background-color: var(--clr-violetae);
+  color: var(--clr-ceniza);
+}
+
+/* ------------------------------------------------- Mapa ------------------------------------------------------------- */
+.contact {
+  color: var(--clr-ceniza);
+  background-color: var(--clr-violetae);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact_div h3 {
+  font-size: 2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 5px;
+  padding: 5px;
+}
+.contact .contact_map {
+  width: 95vw;
+  margin: 5px;
+}
+
+/* ------------------------------------------------ Footer ---------------------------------------------------------- */
+.footer {
+  border-top: 2px solid var(--clr-ceniza);
+  background-color: var(--clr-azulo);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 70px 160px 50px;
+  grid-template-areas: "ft ft ft" "fs1 fs2 fs3" "fp fp fp";
+}
+.footer__titulo {
+  grid-area: ft;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+.footer__sec-1 {
+  grid-area: fs1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer__sec-1 img {
+  width: 50px;
+}
+.footer__sec-2 {
+  grid-area: fs2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer__sec-3 {
+  grid-area: fs3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer__pie {
+  border: solid 2px var(--clr-naranja);
+  grid-area: fp;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.footer h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: var(--clr-ceniza);
+}
+.footer p {
+  color: var(--clr-ceniza);
+  text-align: center;
+}
+.footer a {
+  color: var(--clr-ceniza);
+  text-decoration: none;
+}
+.footer li {
+  list-style: none;
+}
+.footer li :hover {
+  color: var(--clr-oranred);
+}
+.footer ul {
+  margin-bottom: 0rem;
+  padding-left: 0rem;
+}
+
+/* ------------------------------------ Media Querie 420px ----------------------------------------------------------- */
+/* ------------------------------------ Main ----------------------------------------------------------------------- */
+@media screen and (max-width: 444px) {
+  .card__container__titulo {
+    font-size: 2rem;
+    font-weight: 900;
+    text-align: center;
+  }
+  .card__container__texto {
+    text-align: center;
+    font-size: 0.9rem;
+  }
+  .card__container__gallery {
+    height: 155vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-areas: "1" "2" "3" "4" "5" "6";
+    justify-items: center;
+    align-items: center;
+    padding: 10px;
+  }
+  .card__container__gallery__product img {
+    margin: 2px;
+    padding: 2px;
+    width: 45vw;
+  }
+  .card__container__gallery__product a {
+    width: auto;
+    font-weight: 600;
+    padding: 3px;
+  }
+}
+/* ------------------------------------------------- Pagina Quines Somos -------------------------------------- */
+@media screen and (max-width: 444px) {
+  .titulo_articulo {
+    font-size: 2rem;
+  }
+  .card_QS {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: 1fr;
+    grid-template-areas: "tl" "tx" "im";
+    justify-content: center;
+    align-items: center;
+  }
+  .card_QS_titulo {
+    grid-area: tl;
+    font-size: 1.3rem;
+    align-self: flex-end;
+  }
+  .card_QS_texto {
+    grid-area: tx;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .card_QS_logo {
+    grid-area: im;
+  }
+  .card_QS_logo_img {
+    width: 90%;
+    border-radius: 5px;
+  }
+}
+/* ------------------------------------------------- Mapa, Contactos y Footer ---------------------------------------------------- */
+@media screen and (max-width: 444px) {
+  .contact_div h3 {
+    font-size: 1rem;
+    font-weight: 900;
+  }
+  .contact_map_div {
+    width: 95%;
+    display: flex;
+    justify-content: center;
+  }
+  .formulario_input {
+    min-width: 252px;
+    width: 75vw;
+  }
+  .formulario_input_buttons {
+    max-width: 180px;
+  }
+  .formulario_input > input {
+    min-width: 232px;
+  }
+  .footer a {
+    font-size: 0.7rem;
+  }
+  .footer h3 {
+    font-size: 0.8rem;
+  }
+  .footer__sec-1 h3 {
+    padding-left: 10px;
+  }
+  .footer__pie h3 {
+    text-align: center;
+  }
+}
+/*------------------------------------ Media Querie hasta 768px ----------------------------------------------------------- */
+/* ------------------------------------ Main ----------------------------------------------------------------------- */
+@media screen and (min-width: 445px) and (max-width: 768px) {
+  .card__container {
+    margin-top: 10px;
+  }
+  .card__container__titulo {
+    font-size: 1.5rem;
+    font-weight: 900;
+    text-align: center;
+  }
+  .card__container__texto {
+    text-align: center;
+    font-size: 1rem;
+  }
+  .card__container__gallery {
+    height: 75vh;
+    width: 90vw;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: "1 2" "3 4" "5 6";
+    justify-items: center;
+    align-items: center;
+    margin: 10px;
+    padding: 5px;
+  }
+  .card__container__gallery__product img {
+    margin: 2px;
+    padding: 2px;
+    width: 28vw;
+  }
+  .card__container__gallery__product a {
+    width: 18vw;
+    font-weight: 700;
+    padding: 3px;
+  }
+}
+/* ------------------------------------------------- Pagina Quines Somos -------------------------------------- */
+@media screen and (min-width: 445px) and (max-width: 768px) {
+  .titulo_articulo {
+    font-size: 2rem;
+    position: relative;
+    top: 100px;
+  }
+  .card_QS {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: 1fr;
+    grid-template-areas: "tl" "tx" "im";
+    justify-content: center;
+    align-items: center;
+  }
+  .card_QS_titulo {
+    grid-area: tl;
+    font-size: 1.5rem;
+    font-weight: 600;
+    align-self: flex-end;
+  }
+  .card_QS_texto {
+    grid-area: tx;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  .card_QS_logo {
+    grid-area: im;
+  }
+  .card_QS_logo_img {
+    width: 90%;
+    border-radius: 5px;
+  }
+  /* ------------------------------------ Contactos ----------------------------------------------------------------------- */
+  .formulario_input {
+    min-width: 334px;
+    width: 75vw;
+  }
+  .formulario_input > input {
+    min-width: 314px;
+  }
+  /* ------------------------------------ Mapa ----------------------------------------------------------------------- */
+  .contact {
+    border: solid var(--clr-font) 3px;
+  }
+  .contact_title {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  .contact_map_div {
+    width: 75vw;
+    display: flex;
+    justify-content: center;
+  }
+  /* ------------------------------------ Footer ----------------------------------------------------------------------- */
+  .footer h4 {
+    font-size: 1.1rem;
+    padding: 5px;
+  }
+}
+/*------------------------------------ Media Querie hasta 900px ----------------------------------------------------------- */
+/* ----------------------------------- Pagina Quines Somos -------------------------------------- */
+@media screen and (min-width: 769px) and (max-width: 900px) {
+  .titulo_articulo {
+    font-size: 3rem;
+    position: relative;
+    top: 100px;
+  }
+  .card_QS {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: 1fr;
+    grid-template-areas: "tl" "tx" "im";
+    justify-content: center;
+    align-items: center;
+  }
+  .card_QS_titulo {
+    grid-area: tl;
+    font-size: 2rem;
+    font-weight: 700;
+    align-self: flex-end;
+  }
+  .card_QS_texto {
+    grid-area: tx;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: justify;
+  }
+  .card_QS_logo {
+    grid-area: im;
+  }
+  .card_QS_logo_img {
+    width: 90%;
+    border-radius: 5px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,24 @@
+/* ------------------------------------------------- Mapa ------------------------------------------------------------- */
+.contact {
+    color: var(--clr-ceniza);
+    background-color: var(--clr-violetae);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &_div {
+        h3 {
+        
+            font-size: 2rem;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin: 5px;
+            padding: 5px;
+        }
+    }
+
+  .contact_map {
+    width: 95vw;
+    margin: 5px;
+  }
+}

@@ -1,0 +1,24 @@
+
+/* ------------------------------------------------ Main Paginas Secuandarias ------------------------------------------------------------- */
+
+.tarjetas__conenedor {
+    background-color: var(--clr-azulo);
+    color: var(--clr-ceniza);
+  }
+  .tarjetas__title {
+    background-color: var(--clr-oranred);
+    border-radius: 10px;
+  }
+.tarjeta1 {
+    background-color: var(--clr-naranja);
+    &__img {
+        /* margin: 1px; */
+        /* width: 100%; */
+        height: 100%;
+        object-fit: cover;
+      }
+  }
+
+
+
+  

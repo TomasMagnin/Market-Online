@@ -1,0 +1,99 @@
+/* ------------------------------------ Header ----------------------------------------------------------------------- */
+/*------------------------------------------- Titulo, Imagen ----------------------------------------------------------*/
+header{
+    background: var(--clr-violetae);
+  }
+.header-Titulo-Imagen {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    padding: 10px;
+    color:  var(--clr-ceniza);
+    background: var(--clr-violetae);
+  }
+
+  .header-img{
+    img {
+        margin-left: 10px;
+        border-radius: 10px;
+        width: 6vw;
+        animation-name: Logo;
+        animation-duration: 10s;
+        transition-timing-function:cubic-bezier(0.075, 0.82, 0.165, 1)  ;
+        animation-iteration-count: infinite;
+      }
+}      
+
+/*------------------------------------------- Titulo, Imagen ----------------------------------------------------------*/
+/* -------------------------------------------- Buscador --------------------------------------------------------------*/
+
+.buscador {
+    display: flex;
+    justify-content: center;
+
+    input {
+        width: 55vw;
+        height: 40px;
+        background-color: var(--clr-ceniza);
+        border-radius: 5px;
+        border:  var(--clr-ceniza) 3px solid;
+      }
+    
+    &-icon{
+        img {
+            width: 50px;
+            height: 40px;
+            padding: 2px;
+            margin-bottom: 4px;
+            color: var(--clr-ceniza);
+            background-color:  var(--clr-ceniza);
+            border:  var(--clr-ceniza) 3px solid;
+            border-radius: 5px;
+           }
+         
+        & :hover {
+            background-color: var(--clr-naranja);
+            transform: scale(1.05);
+            transition: all .3s;   
+           }     
+    }   
+}
+
+/* -------------------------------------------- Fin Buscador ----------------------------------------------------------*/
+/* -------------------------------------------- Navbar ----------------------------------------------------------------*/
+.navbar {
+    /* padding de la Nav Serch */
+    --bs-navbar-padding-x: 5px;
+    --bs-navbar-padding-y: 1rem;
+    /* Color de Font Nav */
+    --bs-navbar-color: whitesmoke;
+    /* Hover nav color */
+    --bs-navbar-hover-color: whitesmoke;
+    /* Boton Home  */
+    --bs-navbar-active-color: whitesmoke;
+    /* Subtit Categoria */
+    --bs-navbar-brand-font-size: 1.5rem;
+    --bs-navbar-brand-color: whitesmoke;
+    --bs-navbar-brand-hover-color: whitesmoke;
+    --bs-navbar-nav-link-padding-x: 1rem;
+    /* Toggler */
+    --bs-navbar-toggler-padding-y: 0.50rem;
+    --bs-navbar-toggler-padding-x: 0.75rem;
+    --bs-navbar-toggler-font-size: 1.5rem;
+    --bs-navbar-toggler-border-color: whitesmoke;
+    --bs-navbar-toggler-border-radius: 0.4rem;
+    --bs-navbar-toggler-focus-width: 0.35rem;
+    --bs-navbar-toggler-transition: box-shadow 0.15s ease-in-out;
+  }
+  .nav-item :hover {
+    width: 150px;
+    text-align: center;
+    padding-right: 5px;
+    transform: scale(1.01);
+    background: var(--clr-naranja);
+    font-weight: 400;
+    transition: all .3s;
+    border-radius: 5px;
+  }
+  
+/* ---------------------------------------- Fin Navbar ----------------------------------------------------------------*/

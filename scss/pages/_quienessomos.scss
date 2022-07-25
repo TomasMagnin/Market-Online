@@ -1,0 +1,90 @@
+/* ------------------------------------------------ Pagina Quienes Somos ---------------------------------------------------------- */
+
+.QuienesSomos {
+    background-color: var(--clr-ceniza);
+}
+
+
+
+/* .tarjeta_QS_logo_img img {
+    
+    object-fit: cover;
+    
+} 
+ */
+/* .titulo_articulo{
+    color: var(--clr-gris);
+    text-align: center; 
+    padding-top: 15px; 
+    position: relative;
+    top: 40px;
+} */
+/* .tarjeta_QS{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+} */
+
+/* 
+.QuienesSomos{
+    background-color: var(--clr-ceniza);  
+    height: 100%;
+}
+.titulo_articulo{
+    color: var(--clr-gris);
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 15px; 
+    position: relative;
+    top: 40px;
+}
+.card_QS{
+    
+    display: grid;
+    grid-template-rows: 75px 250px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 
+    "tl tl"
+    "tx im";
+    justify-content: center;
+    align-items: center;
+    margin-inline: calc(10vw);
+    padding-top: 15px;   
+    &_titulo{
+        grid-area: tl;
+        background-color: var(--clr-azulo);
+        height: 40px;
+        width: 80vw;
+        border-radius: 10px;
+        font-size: 2rem;
+        color: var(--clr-ceniza);
+        text-align: center;
+        font-weight: 700;
+    }
+    &_texto{
+        grid-area: tx;
+        border-radius: 10px;
+        background-color: var(--clr-ceniza);
+        text-align: justify;
+        font-size: 1.6rem;
+        font-weight: 600;
+        color: var(--clr-gris);
+    }
+    &_logo{
+        grid-area: im;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 5px;
+        &_img{
+          width: 90%;
+          border-radius: 5px;   
+        }
+    }
+}  
+picture :last-child{
+    margin-bottom: 40px;*/
+
+ 
