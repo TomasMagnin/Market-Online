@@ -22,3 +22,8 @@
 .letraTexto2{
     @include fontSize(1.5rem, 300, Verdana)
 }
+
+.letraTitulo3{
+    @include fontSize(2rem, 400, Georgia )
+}
+
