@@ -115,8 +115,8 @@
         &__pie {
             width: 100%;
         }
-        h3 {
-            font-size: 1.2rem;
+        p {
+            font-size: 1rem;
         }
     }
 }
@@ -230,8 +230,10 @@
         h3 {
             text-align: start;
             padding-left: 10%;
-        }
-        
+        }    
+    }
+    .footer__pie {
+        font-size: 1rem;
     }
     h3 {
         font-size: 1.2rem;

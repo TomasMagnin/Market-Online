@@ -535,8 +535,8 @@ header {
   .footer__pie {
     width: 100%;
   }
-  .footer h3 {
-    font-size: 1.2rem;
+  .footer p {
+    font-size: 1rem;
   }
 }
 /*------------------------------------ Media Querie hasta 768px ----------------------------------------------------------- */
@@ -643,6 +643,9 @@ header {
   .footer__sec-3 h3 {
     text-align: start;
     padding-left: 10%;
+  }
+  .footer .footer__pie {
+    font-size: 1rem;
   }
   .footer h3 {
     font-size: 1.2rem;
