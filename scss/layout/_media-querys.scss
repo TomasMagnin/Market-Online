@@ -1,14 +1,20 @@
 /* ------------------------------------ Media Querie 420px ----------------------------------------------------------- */
 /* ------------------------------------ Main ----------------------------------------------------------------------- */
 @media screen and (max-width: 444px) {
-    .header-img {
-        img{
-            display: flex;
-        justify-content: center;
-
-        }
+    .encabezado {
+        position: fixed;
+        top: 0;
+        z-index: 1;
+        height: 150px;
+        width: 100%;
     }
-    .card__container {
+    .header-Titulo-Imagen {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .card__container {  
+        padding-top: 151px;
         &__titulo {
             font-size: 2rem;
             font-weight: 900;
@@ -42,10 +48,22 @@
             }
         }
     }
+}   
+/* ------------------------------------------------- Paginas Secundaria ---------------------------------------------------- */
+@media screen and (max-width: 444px) {
+    .tarjetas__conenedor {
+        padding-top: 151px;    
+    }
+    .QuienesSomos {
+        padding-top: 151px;
+    }
 } 
 
 /* ------------------------------------------------- Mapa, Contactos y Footer ---------------------------------------------------- */
   @media screen and (max-width: 444px) {
+    .secform {
+        padding-top: 151px;
+    }
     .contact{
         &_div {
             h3{
@@ -103,9 +121,22 @@
     }
 }
 /*------------------------------------ Media Querie hasta 768px ----------------------------------------------------------- */
-/* ------------------------------------ Main ----------------------------------------------------------------------- */
+/* ------------------------------------ Main y Header ----------------------------------------------------------------------- */
   @media screen and (min-width: 445px) and (max-width: 768px) {
+    .encabezado {
+        position: fixed;
+        top: 0;
+        z-index: 1;
+        height: 150px;
+        width: 100%;
+    }
+    .header-Titulo-Imagen {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
     .card__container {
+        padding-top: 151px;
         margin-top: 10px;
         &__titulo {
             font-size: 1.5rem;
@@ -144,10 +175,21 @@
     }
   }
 
+  /* ------------------------------------------------- Paginas Secundaria ---------------------------------------------------- */
+  @media screen and (min-width: 445px) and (max-width: 768px) {
+    .tarjetas__conenedor {
+        padding-top: 151px;    
+    }
+    .QuienesSomos {
+        padding-top: 151px;
+    }
+} 
 /*------------------------------------ Media Querie hasta 768px ----------------------------------------------------------- */
 @media screen and (min-width: 445px) and (max-width: 768px) {
-    
 /* ------------------------------------ Contactos ----------------------------------------------------------------------- */
+    .secform {
+        padding-top: 151px;
+    }
     .formulario {
         &_input {
             min-width: 334px;

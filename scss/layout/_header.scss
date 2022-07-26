@@ -11,7 +11,6 @@ header{
     color:  var(--clr-ceniza);
     background: var(--clr-violetae);
   }
-
   .header-img{
     img {
         margin-left: 10px;
@@ -26,7 +25,6 @@ header{
 .buscador {
     display: flex;
     justify-content: center;
-
     input {
         width: 55vw;
         height: 40px;
@@ -34,7 +32,6 @@ header{
         border-radius: 5px;
         border:  var(--clr-ceniza) 3px solid;
       }
-    
     &-icon{
         img {
             width: 50px;
@@ -46,7 +43,6 @@ header{
             border:  var(--clr-ceniza) 3px solid;
             border-radius: 5px;
            }
-         
         & :hover {
             background-color: var(--clr-naranja);
             transform: scale(1.05);
@@ -82,14 +78,13 @@ header{
     --bs-navbar-toggler-transition: box-shadow 0.15s ease-in-out;
   }
   .nav-item :hover {
-    width: 150px;
+    
     text-align: center;
-    padding-right: 5px;
-    transform: scale(1.01);
+    padding-right: 5px; 
     background: var(--clr-naranja);
-    font-weight: 400;
-    transition: all .3s;
-    border-radius: 5px;
+    font-weight: 400; 
+    transition: all .3s; 
+    border-radius: 5px; 
   }
   
 /* ---------------------------------------- Fin Navbar ----------------------------------------------------------------*/
