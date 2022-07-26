@@ -1,17 +1,15 @@
 
 /* ----------------------------------------------- Formulario de Contactos ------------------------------------------- */
 .section {
-    background-color: var(--clr-azulo);
+    background-color: $clr-azulo;
     padding-bottom: 4rem;
     padding-bottom: 10px;
-    color: var(--clr-ceniza);
-    border-top: var(--clr-azulo) 4px solid;
+    color: $clr-ceniza;
+    border-top: $clr-azulo 4px solid;
 }
 .titulo-formulario {
     font-size: 2rem;
-    color: var(--clr-naranja);
-    /* font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 700; */
+    color: $clr-naranja;
     padding: auto;
     margin: 15px;
     padding: 5px;
@@ -29,7 +27,7 @@
         margin: 15px 0px 15px 0px;
         width: 75vw;
         max-width: 597px;
-        border: 5px solid var(--clr-ceniza);
+        border: 5px solid clr-ceniza;
         border-radius: 15px;
         display: flex;
         flex-direction: column;
@@ -40,13 +38,8 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            flex-wrap: wrap;
-            
-            
-            
-            
-        }
-        
+            flex-wrap: wrap;   
+        } 
         & > input {
             max-width: 577px;
             border-radius: 8px;
@@ -54,8 +47,8 @@
             text-align: center;
         }
         & > input:hover {
-            background-color: var(--clr-violetae);
-            color: var(--clr-ceniza);
+            background-color: $clr-violetae;
+            color: $clr-ceniza;
         }
         & > select {
             border-radius: 8px;
@@ -69,8 +62,8 @@
             text-align: center;
         }
         & :active {
-            background-color: var(--clr-violetae);
-            color: var(--clr-ceniza);
+            background-color: $clr-violetae;
+            color: $clr-ceniza;
         }
     }
 }

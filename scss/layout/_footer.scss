@@ -1,9 +1,9 @@
 /* ------------------------------------------------ Footer ---------------------------------------------------------- */
 
 .footer {
-    background-color: var(--clr-azulo);
-    border-top: solid 2px orange;
-    color: var(--clr-ceniza);
+    background-color: $clr-azulo;
+    border-top: solid 2px $clr-naranja;
+    color: $clr-ceniza;
     display: flex;
     flex-direction:row;
     justify-content: space-evenly;
@@ -37,12 +37,12 @@
         li{
             padding: 3px;
             a:hover {
-                color: orange;
+                color: $clr-naranja;
             }
         }
     }
     &__pie {
-        border: solid 2px var(--clr-ceniza);
+        border: solid 2px $clr-ceniza;
         width: 100%;        
         text-align: center;
         p {
@@ -56,7 +56,7 @@
         text-decoration: none;
     }
     a {
-        color: var(--clr-ceniza);
+        color: $clr-ceniza;
         text-decoration: none;
     }
 }

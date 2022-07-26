@@ -1,15 +1,15 @@
 /* ------------------------------------ Header ----------------------------------------------------------------------- */
 /*------------------------------------------- Titulo, Imagen ----------------------------------------------------------*/
 header{
-    background: var(--clr-violetae);
+    background: $clr-violetae;
   }
 .header-Titulo-Imagen {
     display: flex;
     flex-direction: row;
     justify-content: start;
     padding: 10px;
-    color:  var(--clr-ceniza);
-    background: var(--clr-violetae);
+    color:  $clr-ceniza;
+    background: $clr-violetae;
   }
   .header-img{
     img {
@@ -28,9 +28,9 @@ header{
     input {
         width: 55vw;
         height: 40px;
-        background-color: var(--clr-ceniza);
+        background-color: $clr-ceniza;
         border-radius: 5px;
-        border:  var(--clr-ceniza) 3px solid;
+        border:  $clr-ceniza 3px solid;
       }
     &-icon{
         img {
@@ -38,13 +38,13 @@ header{
             height: 40px;
             padding: 2px;
             margin-bottom: 4px;
-            color: var(--clr-ceniza);
-            background-color:  var(--clr-ceniza);
-            border:  var(--clr-ceniza) 3px solid;
+            color: $clr-ceniza;
+            background-color:  $clr-ceniza;
+            border:  $clr-ceniza 3px solid;
             border-radius: 5px;
            }
         & :hover {
-            background-color: var(--clr-naranja);
+            background-color: $clr-naranja;
             transform: scale(1.05);
             transition: all .3s;   
            }     
@@ -81,7 +81,7 @@ header{
     
     text-align: center;
     padding-right: 5px; 
-    background: var(--clr-naranja);
+    background: $clr-naranja;
     font-weight: 400; 
     transition: all .3s; 
     border-radius: 5px; 

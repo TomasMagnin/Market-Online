@@ -2,16 +2,16 @@
 /* ------------------------------------------------ Main Paginas Secuandarias ------------------------------------------------------------- */
 
 .tarjetas__conenedor {
-    background-color: var(--clr-azulo);
+    background-color: $clr-azulo;
     color: var(--clr-ceniza);
   }
   .tarjetas__title {
-    background-color: var(--clr-oranred);
+    background-color: $clr-oranred;
     border-radius: 10px;
     text-align: center;
   }
 .tarjeta1 {
-    background-color: var(--clr-naranja);
+    background-color: $clr-naranja;
     &__img {
         
         width: 100%;

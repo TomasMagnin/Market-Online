@@ -1,12 +1,12 @@
 /* ------------------------------------------------ Main Index ------------------------------------------------------------- */
 
 .card__main {
-    background-color: var(--clr-violetae);
+    background-color: $clr-violetae;
     border: black solid 3px;
-    background-color: var(--clr-azulo);
+    background-color: $clr-azulo;
 }
 .card__container {
-        color: var(--clr-ceniza);
+        color: $clr-ceniza;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -22,8 +22,8 @@
             text-align: center;
         } 
         &__gallery {
-            border: solid var(--clr-ceniza) 3px;
-            background: var(--clr-violetae);
+            border: solid $clr-ceniza 3px;
+            background: $clr-violetae;
             border-radius: 25px;
             width: 70vw;
             height: 70vh;
@@ -44,7 +44,7 @@
                 img {
                     width: 13vw;
                     margin: 10px;
-                    border: solid 2px var(--clr-azulo);
+                    border: solid 2px clr-azulo;
                     border-radius: 8px;
                     background-size: cover;
                 }

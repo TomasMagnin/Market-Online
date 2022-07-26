@@ -42,24 +42,13 @@
 }
 
 /* ------------------------------------ Aplicamos Variables ----------------------------- */
-:root {
-  --clr-violetae: blueviolet;
-  --clr-ceniza: whitesmoke;
-  --clr-azulo: #203239;
-  --clr-naranja: orange;
-  --clr-oranred: orangered;
-  --clr-gris: #777;
-  --clr-negro: black;
-}
-
-/* VARIABLES */
 .boton, .botonContactos, .botonPages, .botonHome {
-  background-color: var(--clr-ceniza);
-  color: var(--clr-ceniza);
+  background-color: whitesmoke;
+  color: whitesmoke;
   font-weight: 700;
 }
 .boton:hover, .botonContactos:hover, .botonPages:hover, .botonHome:hover {
-  background-color: var(--clr-naranja);
+  background-color: orange;
   transition: all 0.2s;
 }
 
@@ -67,15 +56,15 @@
   width: 100px;
   padding: 5px 10px;
   text-align: center;
-  border: solid 2px var(--clr-azulo);
+  border: solid 2px #203239;
   text-decoration: none;
-  background-color: var(--clr-ceniza);
-  color: var(--clr-azulo);
+  background-color: whitesmoke;
+  color: #203239;
   border-radius: 5px;
 }
 .botonHome:hover {
-  background-color: var(--clr-naranja);
-  color: var(--clr-negro);
+  background-color: orange;
+  color: black;
   transition: all 0.2s;
 }
 
@@ -84,15 +73,15 @@
   padding: 5px 10px;
   font-weight: 100;
   text-align: center;
-  border: solid 2px var(--clr-ceniza);
+  border: solid 2px whitesmoke;
   text-decoration: none;
-  background-color: var(--clr-ceniza);
-  color: var(--clr-azulo);
+  background-color: whitesmoke;
+  color: #203239;
   border-radius: 5px;
 }
 .botonPages:hover {
-  background-color: var(--clr-oranred);
-  color: var(--clr-ceniza);
+  background-color: orangered;
+  color: whitesmoke;
   transition: all 0.2s;
 }
 
@@ -102,15 +91,15 @@
   margin: 5px 5px;
   font-weight: 100;
   text-align: center;
-  border: solid 2px var(--clr-ceniza);
+  border: solid 2px whitesmoke;
   text-decoration: none;
-  background-color: var(--clr-ceniza);
-  color: var(--clr-azulo);
+  background-color: whitesmoke;
+  color: #203239;
   border-radius: 5px;
 }
 .botonContactos:hover {
-  background-color: var(--clr-oranred);
-  color: var(--clr-ceniza);
+  background-color: orangered;
+  color: whitesmoke;
   transition: all 0.2s;
 }
 
@@ -129,7 +118,7 @@
 /* ------------------------------------ Header ----------------------------------------------------------------------- */
 /*------------------------------------------- Titulo, Imagen ----------------------------------------------------------*/
 header {
-  background: var(--clr-violetae);
+  background: blueviolet;
 }
 
 .header-Titulo-Imagen {
@@ -137,8 +126,8 @@ header {
   flex-direction: row;
   justify-content: start;
   padding: 10px;
-  color: var(--clr-ceniza);
-  background: var(--clr-violetae);
+  color: whitesmoke;
+  background: blueviolet;
 }
 
 .header-img img {
@@ -156,22 +145,22 @@ header {
 .buscador input {
   width: 55vw;
   height: 40px;
-  background-color: var(--clr-ceniza);
+  background-color: whitesmoke;
   border-radius: 5px;
-  border: var(--clr-ceniza) 3px solid;
+  border: whitesmoke 3px solid;
 }
 .buscador-icon img {
   width: 50px;
   height: 40px;
   padding: 2px;
   margin-bottom: 4px;
-  color: var(--clr-ceniza);
-  background-color: var(--clr-ceniza);
-  border: var(--clr-ceniza) 3px solid;
+  color: whitesmoke;
+  background-color: whitesmoke;
+  border: whitesmoke 3px solid;
   border-radius: 5px;
 }
 .buscador-icon :hover {
-  background-color: var(--clr-naranja);
+  background-color: orange;
   transform: scale(1.05);
   transition: all 0.3s;
 }
@@ -206,7 +195,7 @@ header {
 .nav-item :hover {
   text-align: center;
   padding-right: 5px;
-  background: var(--clr-naranja);
+  background: orange;
   font-weight: 400;
   transition: all 0.3s;
   border-radius: 5px;
@@ -215,13 +204,13 @@ header {
 /* ---------------------------------------- Fin Navbar ----------------------------------------------------------------*/
 /* ------------------------------------------------ Main Index ------------------------------------------------------------- */
 .card__main {
-  background-color: var(--clr-violetae);
+  background-color: blueviolet;
   border: black solid 3px;
-  background-color: var(--clr-azulo);
+  background-color: #203239;
 }
 
 .card__container {
-  color: var(--clr-ceniza);
+  color: whitesmoke;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -238,8 +227,8 @@ header {
   text-align: center;
 }
 .card__container__gallery {
-  border: solid var(--clr-ceniza) 3px;
-  background: var(--clr-violetae);
+  border: solid whitesmoke 3px;
+  background: blueviolet;
   border-radius: 25px;
   width: 70vw;
   height: 70vh;
@@ -262,25 +251,25 @@ header {
 .card__container__gallery__product img {
   width: 13vw;
   margin: 10px;
-  border: solid 2px var(--clr-azulo);
+  border: solid 2px clr-azulo;
   border-radius: 8px;
   background-size: cover;
 }
 
 /* ------------------------------------------------ Main Paginas Secuandarias ------------------------------------------------------------- */
 .tarjetas__conenedor {
-  background-color: var(--clr-azulo);
+  background-color: #203239;
   color: var(--clr-ceniza);
 }
 
 .tarjetas__title {
-  background-color: var(--clr-oranred);
+  background-color: orangered;
   border-radius: 10px;
   text-align: center;
 }
 
 .tarjeta1 {
-  background-color: var(--clr-naranja);
+  background-color: orange;
 }
 .tarjeta1__img {
   width: 100%;
@@ -290,23 +279,21 @@ header {
 
 /* ------------------------------------------------ Pagina Quienes Somos ---------------------------------------------------------- */
 .QuienesSomos {
-  background-color: var(--clr-ceniza);
+  background-color: whitesmoke;
 }
 
 /* ----------------------------------------------- Formulario de Contactos ------------------------------------------- */
 .section {
-  background-color: var(--clr-azulo);
+  background-color: #203239;
   padding-bottom: 4rem;
   padding-bottom: 10px;
-  color: var(--clr-ceniza);
-  border-top: var(--clr-azulo) 4px solid;
+  color: whitesmoke;
+  border-top: #203239 4px solid;
 }
 
 .titulo-formulario {
   font-size: 2rem;
-  color: var(--clr-naranja);
-  /* font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-weight: 700; */
+  color: orange;
   padding: auto;
   margin: 15px;
   padding: 5px;
@@ -326,7 +313,7 @@ header {
   margin: 15px 0px 15px 0px;
   width: 75vw;
   max-width: 597px;
-  border: 5px solid var(--clr-ceniza);
+  border: 5px solid clr-ceniza;
   border-radius: 15px;
   display: flex;
   flex-direction: column;
@@ -345,8 +332,8 @@ header {
   text-align: center;
 }
 .formulario_input > input:hover {
-  background-color: var(--clr-violetae);
-  color: var(--clr-ceniza);
+  background-color: blueviolet;
+  color: whitesmoke;
 }
 .formulario_input > select {
   border-radius: 8px;
@@ -360,14 +347,14 @@ header {
   text-align: center;
 }
 .formulario_input :active {
-  background-color: var(--clr-violetae);
-  color: var(--clr-ceniza);
+  background-color: blueviolet;
+  color: whitesmoke;
 }
 
 /* ------------------------------------------------- Mapa ------------------------------------------------------------- */
 .contact {
-  color: var(--clr-ceniza);
-  background-color: var(--clr-violetae);
+  color: whitesmoke;
+  background-color: blueviolet;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -386,9 +373,9 @@ header {
 
 /* ------------------------------------------------ Footer ---------------------------------------------------------- */
 .footer {
-  background-color: var(--clr-azulo);
+  background-color: #203239;
   border-top: solid 2px orange;
-  color: var(--clr-ceniza);
+  color: whitesmoke;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -424,7 +411,7 @@ header {
   color: orange;
 }
 .footer__pie {
-  border: solid 2px var(--clr-ceniza);
+  border: solid 2px whitesmoke;
   width: 100%;
   text-align: center;
 }
@@ -438,7 +425,7 @@ header {
   text-decoration: none;
 }
 .footer a {
-  color: var(--clr-ceniza);
+  color: whitesmoke;
   text-decoration: none;
 }
 
