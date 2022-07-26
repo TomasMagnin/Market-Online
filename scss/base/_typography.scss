@@ -20,10 +20,10 @@
     @include fontSize(1rem, 100, Verdana)
 }
 .letraTexto2{
-    @include fontSize(1.5rem, 300, Verdana)
+    @include fontSize(1.3rem, 300, Verdana)
 }
 
-.letraTitulo3{
+.letraTitulo1{
     @include fontSize(2rem, 400, Georgia )
 }
 
