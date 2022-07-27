@@ -25,7 +25,8 @@
             font-size: .9rem;
         }
         &__gallery {
-            height: 155vh;
+            height: 1100px;
+            width: 297px;
             display: grid;
             grid-template-columns: 1fr;
             grid-template-rows: repeat(6, 1fr);
@@ -33,19 +34,6 @@
             justify-items: center;
             align-items: center;
             padding: 10px;
-            &__product{ 
-                img {
-                  margin: 2px;
-                  padding: 2px;
-                  width: 126px;
-
-                }
-                a {
-                  width: auto;
-                  font-weight: 600;
-                  padding: 3px;
-                }
-            }
         }
     }
 }   
@@ -58,7 +46,6 @@
         padding-top: 151px;
     }
 } 
-
 /* ------------------------------------------------- Mapa, Contactos y Footer ---------------------------------------------------- */
   @media screen and (max-width: 444px) {
     .secform {
@@ -96,8 +83,7 @@
         &__sec-1 {
             width: 100%;
             text-align: center;
-            padding-bottom: 15px;
-            
+            padding-bottom: 15px;  
         }
         &__sec-2 {
             width: 100%;
@@ -148,8 +134,8 @@
             font-size: 1rem;
         }  
         &__gallery{
-            height: 75vh;
-            width: 90vw;
+            height: 700px;
+            max-width: 400px;
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             grid-template-rows: repeat(3, 1fr);
@@ -157,26 +143,12 @@
             justify-items: center;
             align-items: center;
             margin: 10px;
-            padding: 5px;
-            
-            &__product {
-                img {
-                    margin: 2px;
-                    padding: 2px;
-                    width: 120px;
-                }
-                a {
-                    width: 18vw;
-                    font-weight: 700;
-                    padding: 3px;
-                }
-            }    
+            padding: 5px; 
         }   
     }
   }
-
-  /* ------------------------------------------------- Paginas Secundaria ---------------------------------------------------- */
-  @media screen and (min-width: 445px) and (max-width: 768px) {
+/* ------------------------------------------------- Paginas Secundaria ---------------------------------------------------- */
+@media screen and (min-width: 445px) and (max-width: 768px) {
     .tarjetas__conenedor {
         padding-top: 151px;    
     }
@@ -213,30 +185,30 @@
         }
     }
 /* ------------------------------------ Footer ----------------------------------------------------------------------- */
-  .footer {
-    &__sec-1 {
-        width: 25%;
-        text-align: center;
-        align-self: flex-start;
-    }
-    &__sec-2 {
-        width: 40%;
-        text-align: center;
-    }
-    &__sec-3 {
-        width: 25%;
-        align-self: flex-start;
-        text-align: start;
-        h3 {
+    .footer {
+        &__sec-1 {
+            width: 25%;
+            text-align: center;
+            align-self: flex-start;
+        }
+        &__sec-2 {
+            width: 40%;
+            text-align: center;
+        }
+        &__sec-3 {
+            width: 25%;
+            align-self: flex-start;
             text-align: start;
-            padding-left: 10%;
-        }    
-    }
-    .footer__pie {
-        font-size: 1rem;
-    }
-    h3 {
-        font-size: 1.2rem;
-    }  
+            h3 {
+                text-align: start;
+                padding-left: 10%;
+            }    
+        }
+        .footer__pie {
+            font-size: 1rem;
+        }
+        h3 {
+            font-size: 1.2rem;
+        }  
     }
 } 

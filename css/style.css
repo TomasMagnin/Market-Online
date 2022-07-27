@@ -230,8 +230,8 @@ header {
   border: solid whitesmoke 3px;
   background: blueviolet;
   border-radius: 25px;
-  width: 70vw;
-  height: 70vh;
+  width: 700px;
+  height: 500px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
@@ -249,7 +249,9 @@ header {
   flex-wrap: wrap;
 }
 .card__container__gallery__product img {
-  width: 13vw;
+  /* width: 13vw; */
+  min-width: 120px;
+  max-width: 160px;
   margin: 10px;
   border: solid 2px clr-azulo;
   border-radius: 8px;
@@ -458,7 +460,8 @@ header {
     font-size: 0.9rem;
   }
   .card__container__gallery {
-    height: 155vh;
+    height: 1100px;
+    width: 297px;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(6, 1fr);
@@ -466,16 +469,6 @@ header {
     justify-items: center;
     align-items: center;
     padding: 10px;
-  }
-  .card__container__gallery__product img {
-    margin: 2px;
-    padding: 2px;
-    width: 126px;
-  }
-  .card__container__gallery__product a {
-    width: auto;
-    font-weight: 600;
-    padding: 3px;
   }
 }
 /* ------------------------------------------------- Paginas Secundaria ---------------------------------------------------- */
@@ -568,8 +561,8 @@ header {
     font-size: 1rem;
   }
   .card__container__gallery {
-    height: 75vh;
-    width: 90vw;
+    height: 700px;
+    max-width: 400px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
@@ -578,16 +571,6 @@ header {
     align-items: center;
     margin: 10px;
     padding: 5px;
-  }
-  .card__container__gallery__product img {
-    margin: 2px;
-    padding: 2px;
-    width: 120px;
-  }
-  .card__container__gallery__product a {
-    width: 18vw;
-    font-weight: 700;
-    padding: 3px;
   }
 }
 /* ------------------------------------------------- Paginas Secundaria ---------------------------------------------------- */
