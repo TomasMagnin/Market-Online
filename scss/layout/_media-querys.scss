@@ -5,14 +5,23 @@
         position: fixed;
         top: 0;
         z-index: 1;
-        height: 150px;
         width: 100%;
     }
-    .header-Titulo-Imagen {
-        display: flex;
-        justify-content: center;
-        width: 100%;
+    .button-responsive{
+        display: block;
     }
+    .buscador {
+        justify-content: space-evenly;
+        input {
+            margin-left: 1px;
+            width: 48vw;
+        }
+        &-icon{
+            img {
+                width: 40px;
+            }
+        }
+    }              
     .card__container {  
         padding-top: 151px;
         &__titulo {
@@ -108,14 +117,27 @@
 }
 /*------------------------------------ Media Querie hasta 768px ----------------------------------------------------------- */
 /* ------------------------------------ Main y Header ----------------------------------------------------------------------- */
-  @media screen and (min-width: 445px) and (max-width: 768px) {
+  @media screen and (min-width: 444px) and (max-width: 768px) {
     .encabezado {
         position: fixed;
         top: 0;
         z-index: 1;
-        height: 150px;
         width: 100%;
     }
+    .button-responsive{
+        display: block;
+    }
+    .buscador {
+        justify-content: space-evenly;
+        input {
+            margin-left: 1px;
+        }
+        &-icon{
+            img {
+                width: 40px;
+            }
+        }
+    }      
     .header-Titulo-Imagen {
         display: flex;
         justify-content: center;
@@ -148,7 +170,7 @@
     }
   }
 /* ------------------------------------------------- Paginas Secundaria ---------------------------------------------------- */
-@media screen and (min-width: 445px) and (max-width: 768px) {
+@media screen and (min-width: 444px) and (max-width: 768px) {
     .tarjetas__conenedor {
         padding-top: 151px;    
     }
@@ -157,7 +179,7 @@
     }
 } 
 /*------------------------------------ Media Querie hasta 768px ----------------------------------------------------------- */
-@media screen and (min-width: 445px) and (max-width: 768px) {
+@media screen and (min-width: 444px) and (max-width: 768px) {
 /* ------------------------------------ Contactos ----------------------------------------------------------------------- */
     .secform {
         padding-top: 151px;

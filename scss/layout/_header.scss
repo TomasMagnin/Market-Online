@@ -2,35 +2,35 @@
 /*------------------------------------------- Titulo, Imagen ----------------------------------------------------------*/
 header{
     background: $clr-violetae;
-  }
-.header-Titulo-Imagen {
-    display: flex;
-    flex-direction: row;
-    justify-content: start;
-    padding: 10px;
     color:  $clr-ceniza;
-    background: $clr-violetae;
+    h1  {
+      font-size: 1.5rem;
+      margin-bottom: 0rem;
+    }
+   
   }
-  .header-img{
-    img {
-        margin-left: 10px;
-        border-radius: 10px;
-        width: 60px;
-      }
-}      
+
+.button-responsive{
+ display: none;
+}
+
 
 /*------------------------------------------- Titulo, Imagen ----------------------------------------------------------*/
 /* -------------------------------------------- Buscador --------------------------------------------------------------*/
 
 .buscador {
     display: flex;
-    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    
     input {
         width: 55vw;
         height: 40px;
         background-color: $clr-ceniza;
         border-radius: 5px;
-        border:  $clr-ceniza 3px solid;
+        border:  $clr-negro 3px solid;
+        margin-left: 30px;
+        text-align: center;
       }
     &-icon{
         img {
@@ -40,7 +40,7 @@ header{
             margin-bottom: 4px;
             color: $clr-ceniza;
             background-color:  $clr-ceniza;
-            border:  $clr-ceniza 3px solid;
+            border:  $clr-negro 3px solid;
             border-radius: 5px;
            }
         & :hover {
@@ -48,6 +48,12 @@ header{
             transform: scale(1.05);
             transition: all .3s;   
            }     
+    }
+    &-img img {
+      border-radius: 10px;
+      width: 40px;
+      margin: 0px 4px 4px 4px;
+      
     }   
 }
 
@@ -56,7 +62,7 @@ header{
 .navbar {
     /* padding de la Nav Serch */
     --bs-navbar-padding-x: 5px;
-    --bs-navbar-padding-y: 1rem;
+    --bs-navbar-padding-y: 0rem;
     /* Color de Font Nav */
     --bs-navbar-color: whitesmoke;
     /* Hover nav color */
@@ -69,12 +75,12 @@ header{
     --bs-navbar-brand-hover-color: whitesmoke;
     --bs-navbar-nav-link-padding-x: 1rem;
     /* Toggler */
-    --bs-navbar-toggler-padding-y: 0.50rem;
+    --bs-navbar-toggler-padding-y: 0.60rem;
     --bs-navbar-toggler-padding-x: 0.75rem;
-    --bs-navbar-toggler-font-size: 1.5rem;
+    --bs-navbar-toggler-font-size: 0.7rem;
     --bs-navbar-toggler-border-color: whitesmoke;
     --bs-navbar-toggler-border-radius: 0.4rem;
-    --bs-navbar-toggler-focus-width: 0.35rem;
+    --bs-navbar-toggler-focus-width: 0.1rem;
     --bs-navbar-toggler-transition: box-shadow 0.15s ease-in-out;
   }
   .nav-item :hover {
