@@ -6,6 +6,7 @@ header{
     h1  {
       font-size: 1.5rem;
       margin-bottom: 0rem;
+      margin-left: 5px;
     }
    
   }
@@ -21,14 +22,14 @@ header{
 .buscador {
     display: flex;
     align-items: center;
-    padding: 10px;
+    padding: 15px;
     
     input {
         width: 55vw;
         height: 40px;
         background-color: $clr-ceniza;
         border-radius: 5px;
-        border:  $clr-negro 3px solid;
+        border:  $clr-negro 2px solid;
         margin-left: 30px;
         text-align: center;
       }
@@ -40,7 +41,7 @@ header{
             margin-bottom: 4px;
             color: $clr-ceniza;
             background-color:  $clr-ceniza;
-            border:  $clr-negro 3px solid;
+            border:  $clr-negro 2px solid;
             border-radius: 5px;
            }
         & :hover {
