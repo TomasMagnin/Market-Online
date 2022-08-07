@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"content = "La mejor forma de cuidar tu cuerpo relizando ejercicios con nuestras bicicletas al mejnor precio">
+    <meta name="description" content="La mejor forma de cuidar tu cuerpo relizando ejercicios con nuestras bicicletas al mejnor precio">
     <meta name="keywords" content="Bicicletas, cuotas fijas, todos los rodados, todas las marcas.">
     <meta name="title" content="Las mejores bicicletas de Córdoba al mejor precio, encontralas en Market Online">
     <meta name="author" content="Tomaás Magnin">
-    <link rel="icon" href="../assets/icon/Market Online.ico">
+    <link rel="icon" href="../assets/icon/Market_Online.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
@@ -19,27 +19,28 @@
 <body>
     
 <!-- Inicio de Header -->
-<header class="encabezado container-fluid">
-
-    <!-- Aplicamos Titulo, Imagen, y Serch  -->
-    <div class="header-Titulo-Imagen">
-        <div class="h1 navbar-expand-md">
-            <h1 class="header-h1 collapse navbar-collapse letraTitulo3">Market Online</h1>
-        </div>
-        <div class="header-img ">
-            <img src="../assets/images/Market Online.png" alt="Logo de Pagina">
-        </div>   
-    </div>
+<header class="encabezado">
     <div class="buscador">
-        <form>
-            <input  type="search" placeholder="Buscar">
-            <a class="buscador-icon" href="">
-                     <img src="../assets/icon/magnifying-glass-solid.svg" alt="Buscador">
+        <div class="d-flex justify-content-start align-items-center">    
+            <div class="buscador-img ">
+                <img src="../assets/images/Market_Online.png" alt="Logo de Pagina">
+            </div>
+            <div class="header-h1 navbar-expand-md">
+                <h1 class="collapse navbar-collapse letralogo">Market Online</h1>
+            </div>
+        </div>
+        <form class="d-flex flex-nowrap">
+            <input type="search" placeholder="Buscar">
+            <a class="buscador-icon" href="#">
+                    <img src="../assets/icon/magnifying-glass-solid.svg" alt="Buscador">
             </a>     
         </form>
+        <div class="navbar button-responsive">
+            <button class="navbar-toggler mb-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button> 
+        </div>  
     </div>
-<!-- Fin de Titulo, Imagen, y Serch  -->
-
 <!-- Aplicamos una Navbar con Bootstrap, utilizando un componente de Bootstrap -->
     <nav class="navbar navbar-expand-md nv">
         <div class="container-fluid">
@@ -67,21 +68,54 @@
             </div>
         </div>
     </nav>
-<!--------------------- Fin de la NavBar con Bootstrap ----------------->
-<!------------------ Fin del Header -------------------------------->
 </header>
-<!------------------ Inicio de Main -------------------------------->
+
+<!-- Inicio de Main -->
 <main class="tarjetas__conenedor">
     <div class="container-fluid">
         <div class="row d-flex justify-content-center tarjetas">
-            <h2 class="tarjetas__title  text-center m-3 letraTitulo1">Bicicletas Profesionales</h2>
+            <h2 class="tarjetas__title  text-center m-3 letraTitulo1">Bicicletas Mountain Bike</h2>
             <div class="card text-center m-2 tarjeta1" style="width: 24rem;">
                 <img src="../assets/images/Bici/Giant-Bicicleta-640.jpg" class="card-img-top img-fluid tarjeta1__img"  alt="Imagen-de-Bicicletas">
                 <div class="card-body">
                     <h3 class="card-title letraTexto2">Giant xtrail</h3>
                     <p class="card-text">Año: 2022</p>
                     <p class="card-text">Precio: u$s 2.000</p>
-                    <a href="#" class="botonPages">Comprar</a>
+                    <button class="botonPages"><a href="#"></a>Comprar</button>
+                    <button type="button" class="botonPages" data-bs-toggle="modal" data-bs-target="#modal-img-6">Galeria</button>
+                </div>
+            </div>
+            <div class="modal fade" id="modal-img-6" tabindex="-1" aria-labelledby="modal-label-1" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="modal-label-1">Suzuki GSX-R</h4>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>  
+                        <div class="modal-body">
+                            <div id="carouselExampleControls-6" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="../assets/images/Motos/Suzuki-Motos-720-1.jpg" class="d-block w-100" alt="Imagen-de-Motos-Suzuki">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="../assets/images/Motos/Suzuki-Motos-720-2.jpg" class="d-block w-100" alt="Imagen-de-Motos-Suzuki">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="../assets/images/Motos/Suzuki-Motos-720-3.jpg" class="d-block w-100" alt="Imagen-de-Motos-Suzuki">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls-6" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Anterior</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls-6" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Siguiente</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="card text-center m-2 tarjeta1" style="width: 24rem;">
@@ -93,6 +127,8 @@
                     <a href="#" class="botonPages">Comprar</a>
                 </div>
             </div>
+
+
             <div class="card text-center m-2 tarjeta1" style="width: 24rem;">
                 <img src="../assets/images/Bici/SantaCruz-Bicicleta-640.jpg" class="card-img-top img-fluid tarjeta1__img" alt="Imagen-de-Bicicletas">
                 <div class="card-body">
@@ -102,6 +138,8 @@
                     <a href="#" class="botonPages">Comprar</a>
                 </div>
             </div>
+
+
             <div class="card text-center m-2 tarjeta1" style="width: 24rem;">
                 <img src="../assets/images/Bici/Scott-Bicicleta-640.jpg" class="card-img-top img-fluid tarjeta1__img" alt="Imagen-de-Bicicletas">
                 <div class="card-body">
@@ -111,6 +149,8 @@
                     <a href="#" class="botonPages">Comprar</a>
                 </div>
             </div>
+
+
             <div class="card text-center m-2 tarjeta1" style="width: 24rem;">
                 <img src="../assets/images/Bici/Specialized-Bicicleta-640.jpg" class="card-img-top img-fluid tarjeta1__img" alt="Imagen-de-Bicicletas">
                 <div class="card-body">
@@ -120,6 +160,8 @@
                     <a href="#" class="botonPages">Comprar</a>
                 </div>    
             </div>
+
+
             <div class="card text-center m-2 tarjeta1" style="width: 24rem;">
                 <img src="../assets/images/Bici/Trek-Bicicleta-640.jpg" class="card-img-top img-fluid tarjeta1__img" alt="Imagen-de-Bicicletas">
                 <div class="card-body">
@@ -129,6 +171,9 @@
                     <a href="#" class="botonPages">Comprar</a>
                 </div>    
             </div>
+
+
+
         </div>
     </div>
 </main>
@@ -136,7 +181,7 @@
 
 <!-- Inicio del Footer o Pie de Página -->
 
-<!-------------- Inicio del Footer o Pie de Página ----------------------------->
+<!-- Inicio del Footer o Pie de Página -->
 <footer class="footer">
 
     <div class="footer__titulo letraTitulo1">
@@ -146,9 +191,9 @@
         <h3 class="letraTexto2">Redes </h3>
         <div class="footer__sec-1__div">
             <ul>
-                <li><a href=""><img src="../assets/icon/icons8-instagram.svg" class="botonInstagram" alt="Icono de Acceso a Instagram"></a></li>
-                <li><a href=""><img src="../assets/icon/icons8-facebook-nuevo.svg" class="botonFacebook" alt="Icono de Acceso a Facebook"></a></li>
-                <li><a href=""><img src="../assets/icon/icons8-twitter.svg" class="botonTwitter" alt="Icono de Acceso a Twitter"></a></li>
+                <li><a href="#"><img src="../assets/icon/icons8-instagram.svg" class="botonInstagram" alt="Icono de Acceso a Instagram"></a></li>
+                <li><a href="#"><img src="../assets/icon/icons8-facebook-nuevo.svg" class="botonFacebook" alt="Icono de Acceso a Facebook"></a></li>
+                <li><a href="#"><img src="../assets/icon/icons8-twitter.svg" class="botonTwitter" alt="Icono de Acceso a Twitter"></a></li>
             </ul>
         </div>
     </div>
@@ -163,9 +208,9 @@
         <h3 class="letraTexto2">Mi Cuenta</h3>
         <div>
             <ul>
-                <li><a href="">Ingresar</a> </li>
-                <li><a href="">Vender</a></li>
-                <li><a href="">Registrarse</a></li>
+                <li><a href="#">Ingresar</a> </li>
+                <li><a href="#">Vender</a></li>
+                <li><a href="#">Registrarse</a></li>
             </ul>
         </div>
     </div>
@@ -173,7 +218,7 @@
         <p>Copyright 2022 Tomas Magnin - Todos los Derechos Reservados</p>
     </div>
 </footer>
-<!------------------------- Fin de Footer o Pie de Pagina ------------------------------->
+<!-- Fin de Footer o Pie de Pagina -->
 <script src="../js/bootstrap.js"></script>
 </body>
 </html>

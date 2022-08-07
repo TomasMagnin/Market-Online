@@ -7,6 +7,15 @@
         z-index: 1;
         width: 100%;
     }
+    .navbar-nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .nav-item :hover {
+            width: 130px;  
+    }     
     .button-responsive{
         display: block;
     }
@@ -46,6 +55,7 @@
         }
     }
 }   
+
 /* ------------------------------------------------- Paginas Secundaria ---------------------------------------------------- */
 @media screen and (max-width: 444px) {
     .tarjetas__conenedor {
@@ -124,6 +134,15 @@
         z-index: 1;
         width: 100%;
     }
+    .navbar-nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .nav-item :hover {
+            width: 130px;  
+    }     
     .button-responsive{
         display: block;
     }
@@ -232,5 +251,13 @@
         h3 {
             font-size: 1.2rem;
         }  
+    }
+}
+/* --------------------------------- Pagina Quienes Somos ----------------------------------------------------------- */
+.imagenqs {
+    display: flex;
+    justify-content: center;
+    img {
+        height: auto;
     }
 } 
