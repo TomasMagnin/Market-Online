@@ -17,7 +17,6 @@
     <title>Autos en Market Online</title>
 </head>
 <body>
-    
 <!-- Inicio de Header -->
 <header class="encabezado">
     <div class="buscador">
@@ -41,8 +40,6 @@
             </button> 
         </div>  
     </div>
-
-<!-- Aplicamos una Navbar con Bootstrap, utilizando un componente de Bootstrap -->
     <nav class="navbar navbar-expand-md nv">
         <div class="container-fluid">
             
@@ -71,609 +68,800 @@
         </div>
     </nav>
 </header>
-
 <!-- Inicio de Main -->
-    <main class="tarjetas__conenedor">
-        <div class="container-fluid">
-            <div class="row d-flex justify-content-center tarjetas">
-                <h2 class="tarjetas__title  text-center m-3 letraTitulo1">Autos Deportivos</h2>
-                <div class="card text-center m-2 tarjeta1" style="width: 24rem;">
-                    <img src="../assets/images/Autos/Honda-Civic-720-1.jpg" class="card-img-top img-fluid tarjeta1__img"  alt="Imagen-de-Auto-Deportivo">
-                    <div class="card-body ">
-                        <h3 class="card-title letraTexto2">Honda Civic</h3>
-                        <p class="card-text">KM: 0km</p>
-                        <p class="card-text">Año: 2015</p>
-                        <p class="card-text">Precio: u$s 20.000</p>
-                        <button type="button" class="botonPages" data-bs-toggle="modal" data-bs-target="#modal-img-1">Comprar</button>
-                    </div>
+<main class="tarjetas__conenedor">
+    <div class="container-fluid">
+        <div class="row d-flex justify-content-center tarjetas">
+            <h2 class="tarjetas__title  text-center m-3 letraTitulo1">Autos Deportivos</h2>
+            <div class="card text-center m-2 tarjeta1" style="width: 24rem;">
+                <img src="../assets/images/Autos/Honda-Civic-720-1.jpg" class="card-img-top img-fluid tarjeta1__img"  alt="Imagen-de-Auto-Deportivo">
+                <div class="card-body ">
+                    <h3 class="card-title letraTexto2">Honda Civic</h3>
+                    <p class="card-text">KM: 0km</p>
+                    <p class="card-text">Año: 2015</p>
+                    <p class="card-text">Precio: u$s 20.000</p>
+                    <button class="botonPages"><a href="#"></a>Comprar</button>
+                    <button type="button" class="botonPages" data-bs-toggle="modal" data-bs-target="#modal-img-1">Ver Galeria</button>
                 </div>
-                <div class="modal fade" id="modal-img-1" tabindex="-1" aria-labelledby="modal-label-1" aria-hidden="true">
-                    <div class="modal-dialog modal-lg modal-dialog-centered">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h4 class="modal-title" id="modal-label-1">Honda Civic</h4>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>  
-                            <div class="modal-body">
-                                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                                    <div class="carousel-inner">
-                                        <div class="carousel-item active">
-                                            <img src="../assets/images/Autos/Honda-Civic-720-1.jpg" class="d-block w-100" alt="Imagen-de-Honda-Civic">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="../assets/images/Autos/Honda-Civic-720-2.jpg" class="d-block w-100" alt="Imagen-de-Honda-Civic">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="../assets/images/Autos/Honda-Civic-720-3.jpg" class="d-block w-100" alt="Imagen-de-Honda-Civic">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="../assets/images/Autos/Honda-Civic-720-4.jpg" class="d-block w-100" alt="Imagen-de-Honda-Civic">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="../assets/images/Autos/Honda-Civic-720-5.jpg" class="d-block w-100" alt="Imagen-de-Honda-Civic">
-                                        </div>
+            </div>
+            <div class="modal fade" id="modal-img-1" tabindex="-1" aria-labelledby="modal-label-1" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="modal-label-1">Honda Civic</h4>
+                            <button type="button" class="btn-close w3-btn w3-orange" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>  
+                        <div class="modal-body">
+                            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="../assets/images/Autos/Honda-Civic-720-1.jpg" class="d-block w-100" alt="Imagen-de-Honda-Civic">
                                     </div>
-                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                        <span class="visually-hidden">Anterior</span>
-                                    </button>
-                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                        <span class="visually-hidden">Siguiente</span>
-                                    </button>
+                                    <div class="carousel-item">
+                                        <img src="../assets/images/Autos/Honda-Civic-720-2.jpg" class="d-block w-100" alt="Imagen-de-Honda-Civic">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="../assets/images/Autos/Honda-Civic-720-3.jpg" class="d-block w-100" alt="Imagen-de-Honda-Civic">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="../assets/images/Autos/Honda-Civic-720-4.jpg" class="d-block w-100" alt="Imagen-de-Honda-Civic">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="../assets/images/Autos/Honda-Civic-720-5.jpg" class="d-block w-100" alt="Imagen-de-Honda-Civic">
+                                    </div>
                                 </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" $clr-naranja data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Anterior</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" $clr-naranja data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Siguiente</span>
+                                </button>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="card text-center m-2 tarjeta1" style="width: 24rem;">
-                    <img src="../assets/images/Autos/Toyota-Supra-720-1.jpg" class="card-img-top img-fluid tarjeta1__img" alt="Imagen-de-Auto-Deportivo">
-                    <div class="card-body">
-                        <h3 class="card-title  letraTexto2">Toyota Supra</h3>
-                        <p class="card-text">KM: 0km</p>
-                        <p class="card-text">Año: 2018</p>
-                        <p class="card-text">Precio: u$s 50.000</p>
-                        <button type="button" class="botonPages" data-bs-toggle="modal" data-bs-target="#modal-img-2">Comprar</button>
-                    </div>
+            </div>
+            <div class="card text-center m-2 tarjeta1" style="width: 24rem;">
+                <img src="../assets/images/Autos/Toyota-Supra-720-1.jpg" class="card-img-top img-fluid tarjeta1__img" id="supra" alt="Imagen-de-Auto-Deportivo">
+                <div class="card-body">
+                    <h3 class="card-title  letraTexto2">Toyota Supra</h3>
+                    <p class="card-text">KM: 0km</p>
+                    <p class="card-text">Año: 2018</p>
+                    <p class="card-text">Precio: u$s 50.000</p>
+                    <button class="botonPages"><a href="#"></a>Comprar</button>
+                    <button type="button" class="botonPages" data-bs-toggle="modal" data-bs-target="#modal-img-2">Ver Galeria</button>
                 </div>
-                <div class="modal fade" id="modal-img-2" tabindex="-1" aria-labelledby="modal-label-1" aria-hidden="true">
-                    <div class="modal-dialog modal-lg modal-dialog-centered">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h4 class="modal-title" id="modal-label-1">Toyota Supra</h4>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>  
-                            <div class="modal-body">
-                                <div id="carouselExampleControls-1" class="carousel slide" data-bs-ride="carousel">
-                                    <div class="carousel-inner">
-                                        <div class="carousel-item active">
-                                            <img src="../assets/images/Autos/Toyota-Supra-720-1.jpg" class="d-block w-100" alt="Imagen-de-Toyota_Supra">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="../assets/images/Autos/Toyota-Supra-720-2.jpg" class="d-block w-100" alt="Imagen-de-Toyota_Supra">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="../assets/images/Autos/Toyota-Supra-720-3.jpg" class="d-block w-100" alt="Imagen-de-Toyota_Supra">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="../assets/images/Autos/Toyota-Supra-720-4.jpg" class="d-block w-100" alt="Imagen-de-Toyota_Supra">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="../assets/images/Autos/Toyota-Supra-720-5.jpg" class="d-block w-100" alt="Imagen-de-Toyota_Supra">
-                                        </div>
+            </div>
+            <div class="modal fade" id="modal-img-2" tabindex="-1" aria-labelledby="modal-label-1" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="modal-label-1">Toyota Supra</h4>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>  
+                        <div class="modal-body">
+                            <div id="carouselExampleControls-1" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="../assets/images/Autos/Toyota-Supra-720-1.jpg" class="d-block w-100" alt="Imagen-de-Toyota_Supra">
                                     </div>
-                                    <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleControls-1" data-bs-slide="prev">
-                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                        <span class="visually-hidden">Anterior</span>
-                                    </button>
-                                    <button class="carousel-control-next " type="button" data-bs-target="#carouselExampleControls-1" data-bs-slide="next">
-                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                        <span class="visually-hidden">Siguiente</span>
-                                    </button>
+                                    <div class="carousel-item">
+                                        <img src="../assets/images/Autos/Toyota-Supra-720-2.jpg" class="d-block w-100" alt="Imagen-de-Toyota_Supra">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="../assets/images/Autos/Toyota-Supra-720-3.jpg" class="d-block w-100" alt="Imagen-de-Toyota_Supra">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="../assets/images/Autos/Toyota-Supra-720-4.jpg" class="d-block w-100" alt="Imagen-de-Toyota_Supra">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="../assets/images/Autos/Toyota-Supra-720-5.jpg" class="d-block w-100" alt="Imagen-de-Toyota_Supra">
+                                    </div>
                                 </div>
+                                <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleControls-1" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Anterior</span>
+                                </button>
+                                <button class="carousel-control-next " type="button" data-bs-target="#carouselExampleControls-1" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Siguiente</span>
+                                </button>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="card text-center m-2 tarjeta1" style="width: 24rem;">
-                    <img src="../assets/images/Autos/Nissan-GTR-720-1.jpg" class="card-img-top img-fluid tarjeta1__img" alt="Imagen-de-Auto-Deportivo">
-                    <div class="card-body">
-                        <h3 class="card-title letraTexto2">Nissan GT-R</h3>
-                        <p class="card-text">KM: 0km</p>
-                        <p class="card-text">Año: 2020</p>
-                        <p class="card-text">Precio: u$s 35.000</p>
-                        <button type="button" class="botonPages" data-bs-toggle="modal" data-bs-target="#modal-img-3">Comprar</button>
-                    </div>
+            </div>
+            <div class="card text-center m-2 tarjeta1" style="width: 24rem;">
+                <img src="../assets/images/Autos/Nissan-GTR-720-1.jpg" class="card-img-top img-fluid tarjeta1__img" alt="Imagen-de-Auto-Deportivo">
+                <div class="card-body">
+                    <h3 class="card-title letraTexto2">Nissan GT-R</h3>
+                    <p class="card-text">KM: 0km</p>
+                    <p class="card-text">Año: 2020</p>
+                    <p class="card-text">Precio: u$s 35.000</p>
+                    <button class="botonPages"><a href="#"></a>Comprar</button>
+                    <button type="button" class="botonPages" data-bs-toggle="modal" data-bs-target="#modal-img-3">Ver Galeria</button>
                 </div>
-                <div class="modal fade" id="modal-img-3" tabindex="-1" aria-labelledby="modal-label-1" aria-hidden="true">
-                    <div class="modal-dialog modal-lg modal-dialog-centered">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h4 class="modal-title" id="modal-label-1">Nissan GT-R</h4>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>  
-                            <div class="modal-body">
-                                <div id="carouselExampleControls-2" class="carousel slide" data-bs-ride="carousel">
-                                    <div class="carousel-inner">
-                                        <div class="carousel-item active">
-                                            <img src="../assets/images/Autos/Nissan-GTR-720-1.jpg" class="d-block w-100" alt="Imagen-de-Nissan-GTR">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="../assets/images/Autos/Nissan-GTR-720-2.jpg" class="d-block w-100" alt="Imagen-de-Nissan-GTR">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="../assets/images/Autos/Nissan-GTR-720-3.jpg" class="d-block w-100" alt="Imagen-de-Nissan-GTR">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="../assets/images/Autos/Nissan-GTR-720-4.jpg" class="d-block w-100" alt="Imagen-de-Nissan-GTR">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="../assets/images/Autos/Nissan-GTR-720-5.jpg" class="d-block w-100" alt="Imagen-de-Nissan-GTR">
-                                        </div>
+            </div>
+            <div class="modal fade" id="modal-img-3" tabindex="-1" aria-labelledby="modal-label-1" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="modal-label-1">Nissan GT-R</h4>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>  
+                        <div class="modal-body">
+                            <div id="carouselExampleControls-2" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="../assets/images/Autos/Nissan-GTR-720-1.jpg" class="d-block w-100" alt="Imagen-de-Nissan-GTR">
                                     </div>
-                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls-2" data-bs-slide="prev">
-                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                        <span class="visually-hidden">Anterior</span>
-                                    </button>
-                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls-2" data-bs-slide="next">
-                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                        <span class="visually-hidden">Siguiente</span>
-                                    </button>
+                                    <div class="carousel-item">
+                                        <img src="../assets/images/Autos/Nissan-GTR-720-2.jpg" class="d-block w-100" alt="Imagen-de-Nissan-GTR">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="../assets/images/Autos/Nissan-GTR-720-3.jpg" class="d-block w-100" alt="Imagen-de-Nissan-GTR">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="../assets/images/Autos/Nissan-GTR-720-4.jpg" class="d-block w-100" alt="Imagen-de-Nissan-GTR">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="../assets/images/Autos/Nissan-GTR-720-5.jpg" class="d-block w-100" alt="Imagen-de-Nissan-GTR">
+                                    </div>
                                 </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls-2" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Anterior</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls-2" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Siguiente</span>
+                                </button>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="card text-center m-2 tarjeta1" style="width: 24rem;">
-                    <img src="../assets/images/Autos/BMW-M4-720-1.jpg" class="card-img-top img-fluid tarjeta1__img" alt="Imagen-de-Auto-Deportivo">
-                    <div class="card-body">
-                        <h3 class="card-title letraTexto2">BMW M4</h3>
-                        <p class="card-text">KM: 5.000km</p>
-                        <p class="card-text">Año: 1999</p>
-                        <p class="card-text">Precio: u$s 70.000</p>
-                        <button type="button" class="botonPages" data-bs-toggle="modal" data-bs-target="#modal-img-4">Comprar</button>
-                    </div>
+            </div>
+            <div class="card text-center m-2 tarjeta1" style="width: 24rem;">
+                <img src="../assets/images/Autos/BMW-M4-720-1.jpg" id="BMWM4" class="card-img-top img-fluid tarjeta1__img" alt="Imagen-de-Auto-Deportivo">
+                <div class="card-body">
+                    <h3 class="card-title letraTexto2">BMW M4</h3>
+                    <p class="card-text">KM: 5.000km</p>
+                    <p class="card-text">Año: 1999</p>
+                    <p class="card-text">Precio: u$s 70.000</p>
+                    <button class="botonPages"><a href="#"></a>Comprar</button>
+                    <button type="button" class="botonPages" data-bs-toggle="modal" data-bs-target="#modal-img-4">Ver Galeria</button>
                 </div>
-                <div class="modal fade" id="modal-img-4" tabindex="-1" aria-labelledby="modal-label-1" aria-hidden="true">
-                    <div class="modal-dialog modal-lg modal-dialog-centered">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h4 class="modal-title" id="modal-label-1">BMW M4</h4>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>  
-                            <div class="modal-body">
-                                <div id="carouselExampleControls-3" class="carousel slide" data-bs-ride="carousel">
-                                    <div class="carousel-inner">
-                                        <div class="carousel-item active">
-                                            <img src="../assets/images/Autos/BMW-M4-720-1.jpg" class="d-block w-100" alt="Imagen-de-BMW-M4">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="../assets/images/Autos/BMW-M4-720-2.jpg" class="d-block w-100" alt="Imagen-de-BMW-M4">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="../assets/images/Autos/BMW-M4-720-3.jpg" class="d-block w-100" alt="Imagen-de-BMW-M4">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="../assets/images/Autos/BMW-M4-720-4.jpg" class="d-block w-100" alt="Imagen-de-BMW-M4">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="../assets/images/Autos/BMW-M4-720-5.jpg" class="d-block w-100" alt="Imagen-de-BMW-M4">
-                                        </div>
+            </div>
+            <div class="modal fade" id="modal-img-4" tabindex="-1" aria-labelledby="modal-label-1" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="modal-label-1">BMW M4</h4>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>  
+                        <div class="modal-body">
+                            <div id="carouselExampleControls-3" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="../assets/images/Autos/BMW-M4-720-1.jpg" class="d-block w-100" alt="Imagen-de-BMW-M4">
                                     </div>
-                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls-3" data-bs-slide="prev">
-                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                        <span class="visually-hidden">Anterior</span>
-                                    </button>
-                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls-3" data-bs-slide="next">
-                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                        <span class="visually-hidden">Siguiente</span>
-                                    </button>
+                                    <div class="carousel-item">
+                                        <img src="../assets/images/Autos/BMW-M4-720-2.jpg" class="d-block w-100" alt="Imagen-de-BMW-M4">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="../assets/images/Autos/BMW-M4-720-3.jpg" class="d-block w-100" alt="Imagen-de-BMW-M4">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="../assets/images/Autos/BMW-M4-720-4.jpg" class="d-block w-100" alt="Imagen-de-BMW-M4">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="../assets/images/Autos/BMW-M4-720-5.jpg" class="d-block w-100" alt="Imagen-de-BMW-M4">
+                                    </div>
                                 </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls-3" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Anterior</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls-3" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Siguiente</span>
+                                </button>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="card text-center m-2 tarjeta1" style="width: 24rem;">
-                    <img src="../assets/images/Autos/Audi-RS5-720-1.jpg" class="card-img-top img-fluid tarjeta1__img" alt="Imagen-de-Auto-Deportivo">
-                    <div class="card-body">
-                        <h3 class="card-title letraTexto2">Audi RS-5</h3>
-                        <p class="card-text">KM: 19.000km</p>
-                        <p class="card-text">Año: 1992</p>
-                        <p class="card-text">Precio: u$s 30.000</p>
-                        <button type="button" class="botonPages" data-bs-toggle="modal" data-bs-target="#modal-img-5">Comprar</button>
-                    </div>
+            </div>
+            <div class="card text-center m-2 tarjeta1" style="width: 24rem;">
+                <img src="../assets/images/Autos/Audi-RS5-720-1.jpg" class="card-img-top img-fluid tarjeta1__img" alt="Imagen-de-Auto-Deportivo">
+                <div class="card-body">
+                    <h3 class="card-title letraTexto2">Audi RS-5</h3>
+                    <p class="card-text">KM: 19.000km</p>
+                    <p class="card-text">Año: 1992</p>
+                    <p class="card-text">Precio: u$s 30.000</p>
+                    <button class="botonPages"><a href="#"></a>Comprar</button>
+                    <button type="button" class="botonPages" data-bs-toggle="modal" data-bs-target="#modal-img-5">Ver Galeria</button>
                 </div>
-                <div class="modal fade" id="modal-img-5" tabindex="-1" aria-labelledby="modal-label-1" aria-hidden="true">
-                    <div class="modal-dialog modal-lg modal-dialog-centered">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h4 class="modal-title" id="modal-label-1">Audi RS-5</h4>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>  
-                            <div class="modal-body">
-                                <div id="carouselExampleControls-4" class="carousel slide" data-bs-ride="carousel">
-                                    <div class="carousel-inner">
-                                        <div class="carousel-item active">
-                                            <img src="../assets/images/Autos/Audi-RS5-720-1.jpg" class="d-block w-100" alt="Imagen-de-Audi-RS-5">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="../assets/images/Autos/Audi-RS5-720-2.jpg" class="d-block w-100" alt="Imagen-de-Audi-RS-5">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="../assets/images/Autos/Audi-RS5-720-3.jpg" class="d-block w-100" alt="Imagen-de-Audi-RS-5">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="../assets/images/Autos/Audi-RS5-720-4.jpg" class="d-block w-100" alt="Imagen-de-Audi-RS-5">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="../assets/images/Autos/Audi-RS5-720-5.jpg" class="d-block w-100" alt="Imagen-de-Audi-RS-5">
-                                        </div>
+            </div>
+            <div class="modal fade" id="modal-img-5" tabindex="-1" aria-labelledby="modal-label-1" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="modal-label-1">Audi RS-5</h4>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>  
+                        <div class="modal-body">
+                            <div id="carouselExampleControls-4" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="../assets/images/Autos/Audi-RS5-720-1.jpg" class="d-block w-100" alt="Imagen-de-Audi-RS-5">
                                     </div>
-                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls-4" data-bs-slide="prev">
-                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                        <span class="visually-hidden">Anterior</span>
-                                    </button>
-                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls-4" data-bs-slide="next">
-                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                        <span class="visually-hidden">Siguiente</span>
-                                    </button>
+                                    <div class="carousel-item">
+                                        <img src="../assets/images/Autos/Audi-RS5-720-2.jpg" class="d-block w-100" alt="Imagen-de-Audi-RS-5">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="../assets/images/Autos/Audi-RS5-720-3.jpg" class="d-block w-100" alt="Imagen-de-Audi-RS-5">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="../assets/images/Autos/Audi-RS5-720-4.jpg" class="d-block w-100" alt="Imagen-de-Audi-RS-5">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="../assets/images/Autos/Audi-RS5-720-5.jpg" class="d-block w-100" alt="Imagen-de-Audi-RS-5">
+                                    </div>
                                 </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls-4" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Anterior</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls-4" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Siguiente</span>
+                                </button>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="card text-center m-2 tarjeta1" style="width: 24rem;">
-                    <img src="../assets/images/Autos/Mercedez Benz-GTS-720-1.jpg" class="card-img-top img-fluid tarjeta1__img" alt="Imagen-de-Auto-Deportivo">
-                    <div class="card-body">
-                        <h3 class="card-title letraTexto2">Mercedes Benz GTS</h3>
-                        <p class="card-text">KM: 55.000km</p>
-                        <p class="card-text">Año: 1995</p>
-                        <p class="card-text">Precio: u$s 70.000</p>
-                        <button type="button" class="botonPages" data-bs-toggle="modal" data-bs-target="#modal-img-6">Comprar</button>
-                    </div>
+            </div>
+            <div class="card text-center m-2 tarjeta1" style="width: 24rem;">
+                <img src="../assets/images/Autos/Mercedez Benz-GTS-720-1.jpg" class="card-img-top img-fluid tarjeta1__img" alt="Imagen-de-Auto-Deportivo">
+                <div class="card-body">
+                    <h3 class="card-title letraTexto2">Mercedes Benz GTS</h3>
+                    <p class="card-text">KM: 55.000km</p>
+                    <p class="card-text">Año: 1995</p>
+                    <p class="card-text">Precio: u$s 70.000</p>
+                    <button class="botonPages"><a href="#"></a>Comprar</button>
+                    <button type="button" class="botonPages" data-bs-toggle="modal" data-bs-target="#modal-img-6">Ver Galeria</button>
                 </div>
-                <div class="modal fade" id="modal-img-6" tabindex="-1" aria-labelledby="modal-label-1" aria-hidden="true">
-                    <div class="modal-dialog modal-lg modal-dialog-centered">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h4 class="modal-title" id="modal-label-1">Mercedes Benz GTS</h4>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>  
-                            <div class="modal-body">
-                                <div id="carouselExampleControls-5" class="carousel slide" data-bs-ride="carousel">
-                                    <div class="carousel-inner">
-                                        <div class="carousel-item active">
-                                            <img src="../assets/images/Autos/Mercedez Benz-GTS-720-1.jpg" class="d-block w-100" alt="Imagen-de-Mercedes-Benz-GTS">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="../assets/images/Autos/Mercedez Benz-GTS-720-2.jpg" class="d-block w-100" alt="Imagen-de-Mercedes-Benz-GTS">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="../assets/images/Autos/Mercedez Benz-GTS-720-3.jpg" class="d-block w-100" alt="Imagen-de-Mercedes-Benz-GTS">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="../assets/images/Autos/Mercedez Benz-GTS-720-4.jpg" class="d-block w-100" alt="Imagen-de-Mercedes-Benz-GTS">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="../assets/images/Autos/Mercedez Benz-GTS-720-5.jpg" class="d-block w-100" alt="Imagen-de-Mercedes-Benz-GTS">
-                                        </div>
+            </div>
+            <div class="modal fade" id="modal-img-6" tabindex="-1" aria-labelledby="modal-label-1" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="modal-label-1">Mercedes Benz GTS</h4>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>  
+                        <div class="modal-body">
+                            <div id="carouselExampleControls-5" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="../assets/images/Autos/Mercedez Benz-GTS-720-1.jpg" class="d-block w-100" alt="Imagen-de-Mercedes-Benz-GTS">
                                     </div>
-                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls-5" data-bs-slide="prev">
-                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                        <span class="visually-hidden">Anterior</span>
-                                    </button>
-                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls-5" data-bs-slide="next">
-                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                        <span class="visually-hidden">Siguiente</span>
-                                    </button>
+                                    <div class="carousel-item">
+                                        <img src="../assets/images/Autos/Mercedez Benz-GTS-720-2.jpg" class="d-block w-100" alt="Imagen-de-Mercedes-Benz-GTS">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="../assets/images/Autos/Mercedez Benz-GTS-720-3.jpg" class="d-block w-100" alt="Imagen-de-Mercedes-Benz-GTS">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="../assets/images/Autos/Mercedez Benz-GTS-720-4.jpg" class="d-block w-100" alt="Imagen-de-Mercedes-Benz-GTS">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="../assets/images/Autos/Mercedez Benz-GTS-720-5.jpg" class="d-block w-100" alt="Imagen-de-Mercedes-Benz-GTS">
+                                    </div>
                                 </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls-5" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Anterior</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls-5" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Siguiente</span>
+                                </button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="container-fluid">
-            <div class="row d-flex justify-content-center tarjetas">
-                <h2 class="tarjetas__title  text-center m-3 letraTitulo1" id="prueba"> Utilitarios todo Terreno</h2>
-                <div class="card text-center m-2 tarjeta1" style="width: 24rem;">
-                    <img src="../assets/images/Autos/Chevrolet-Silverado-720-1.jpg" class="card-img-top img-fluid tarjeta1__img"  alt="Imagen-de-Utilitario-Todoterreno">
-                    <div class="card-body">
-                        <h3 class="card-title letraTexto2">Chevrolet Silverado</h3>
-                        <p class="card-text">KM: 0km</p>
-                        <p class="card-text">Año: 2021</p>
-                        <p class="card-text">Precio: u$s 50.000</p>
-                        <button type="button" class="botonPages" data-bs-toggle="modal" data-bs-target="#modal-img-7">Comprar</button>
-                    </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row d-flex justify-content-center tarjetas">
+            <h2 class="tarjetas__title  text-center m-3 letraTitulo1"> Utilitarios todo Terreno</h2>
+            <div class="card text-center m-2 tarjeta1" style="width: 24rem;">
+                <img src="../assets/images/Autos/Chevrolet-Silverado-720-1.jpg" id="ChevoletSilverado" class="card-img-top img-fluid tarjeta1__img"  alt="Imagen-de-Utilitario-Todoterreno">
+                <div class="card-body">
+                    <h3 class="card-title letraTexto2">Chevrolet Silverado</h3>
+                    <p class="card-text">KM: 0km</p>
+                    <p class="card-text">Año: 2021</p>
+                    <p class="card-text">Precio: u$s 50.000</p>
+                    <button class="botonPages"><a href="#"></a>Comprar</button>
+                    <button type="button" class="botonPages" data-bs-toggle="modal" data-bs-target="#modal-img-7">Ver Galeria</button>
                 </div>
-                <div class="modal fade" id="modal-img-7" tabindex="-1" aria-labelledby="modal-label-1" aria-hidden="true">
-                    <div class="modal-dialog modal-lg modal-dialog-centered">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h4 class="modal-title" id="modal-label-1">Chevrolet Silverado</h4>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>  
-                            <div class="modal-body">
-                                <div id="carouselExampleControls-6" class="carousel slide" data-bs-ride="carousel">
-                                    <div class="carousel-inner">
-                                        <div class="carousel-item active">
-                                            <img src="../assets/images/Autos/Chevrolet-Silverado-720-1.jpg" class="d-block w-100" alt="Imagen-de-Chevrolet-Silverado">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="../assets/images/Autos/Chevrolet-Silverado-720-2.jpg" class="d-block w-100" alt="Imagen-de-Chevrolet-Silverado">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="../assets/images/Autos/Chevrolet-Silverado-720-3.jpg" class="d-block w-100" alt="Imagen-de-Chevrolet-Silverado">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="../assets/images/Autos/Chevrolet-Silverado-720-4.jpg" class="d-block w-100" alt="Imagen-de-Chevrolet-Silverado">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="../assets/images/Autos/Chevrolet-Silverado-720-5.jpg" class="d-block w-100" alt="Imagen-de-Chevrolet-Silverado">
-                                        </div>
+            </div>
+            <div class="modal fade" id="modal-img-7" tabindex="-1" aria-labelledby="modal-label-1" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="modal-label-1">Chevrolet Silverado</h4>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>  
+                        <div class="modal-body">
+                            <div id="carouselExampleControls-6" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="../assets/images/Autos/Chevrolet-Silverado-720-1.jpg" class="d-block w-100" alt="Imagen-de-Chevrolet-Silverado">
                                     </div>
-                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls-6" data-bs-slide="prev">
-                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                        <span class="visually-hidden">Anterior</span>
-                                    </button>
-                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls-6" data-bs-slide="next">
-                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                        <span class="visually-hidden">Siguiente</span>
-                                    </button>
+                                    <div class="carousel-item">
+                                        <img src="../assets/images/Autos/Chevrolet-Silverado-720-2.jpg" class="d-block w-100" alt="Imagen-de-Chevrolet-Silverado">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="../assets/images/Autos/Chevrolet-Silverado-720-3.jpg" class="d-block w-100" alt="Imagen-de-Chevrolet-Silverado">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="../assets/images/Autos/Chevrolet-Silverado-720-4.jpg" class="d-block w-100" alt="Imagen-de-Chevrolet-Silverado">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="../assets/images/Autos/Chevrolet-Silverado-720-5.jpg" class="d-block w-100" alt="Imagen-de-Chevrolet-Silverado">
+                                    </div>
                                 </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls-6" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Anterior</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls-6" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Siguiente</span>
+                                </button>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="card text-center m-2 tarjeta1" style="width: 24rem;">
-                    <img src="../assets/images/Autos/Dodge-RAM-720-1.jpg" class="card-img-top img-fluid tarjeta1__img" alt="Imagen-de-Utilitario-Todoterreno">
-                    <div class="card-body">
-                        <h3 class="card-title  letraTexto2">Dodge RAM</h3>
-                        <p class="card-text">KM: 0km</p>
-                        <p class="card-text">Año: 2021</p>
-                        <p class="card-text">Precio: u$s 30.000</p>
-                        <button type="button" class="botonPages" data-bs-toggle="modal" data-bs-target="#modal-img-8">Comprar</button>
-                    </div>
+            </div>
+            <div class="card text-center m-2 tarjeta1" style="width: 24rem;">
+                <img src="../assets/images/Autos/Dodge-RAM-720-1.jpg" class="card-img-top img-fluid tarjeta1__img" alt="Imagen-de-Utilitario-Todoterreno">
+                <div class="card-body">
+                    <h3 class="card-title  letraTexto2">Dodge RAM</h3>
+                    <p class="card-text">KM: 0km</p>
+                    <p class="card-text">Año: 2021</p>
+                    <p class="card-text">Precio: u$s 30.000</p>
+                    <button class="botonPages"><a href="#"></a>Comprar</button>
+                    <button type="button" class="botonPages" data-bs-toggle="modal" data-bs-target="#modal-img-8">Ver Galeria</button>
                 </div>
-                <div class="modal fade" id="modal-img-8" tabindex="-1" aria-labelledby="modal-label-1" aria-hidden="true">
-                    <div class="modal-dialog modal-lg modal-dialog-centered">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h4 class="modal-title" id="modal-label-1">Dodge RAM</h4>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>  
-                            <div class="modal-body">
-                                <div id="carouselExampleControls-7" class="carousel slide" data-bs-ride="carousel">
-                                    <div class="carousel-inner">
-                                        <div class="carousel-item active">
-                                            <img src="../assets/images/Autos/Dodge-RAM-720-1.jpg" class="d-block w-100" alt="Imagen-de-Dodge-RAM">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="../assets/images/Autos/Dodge-RAM-720-2.jpg" class="d-block w-100" alt="Imagen-de-Dodge-RAM">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="../assets/images/Autos/Dodge-RAM-720-3.jpg" class="d-block w-100" alt="Imagen-de-Dodge-RAM">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="../assets/images/Autos/Dodge-RAM-720-4.jpg" class="d-block w-100" alt="Imagen-de-Dodge-RAM">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="../assets/images/Autos/Dodge-RAM-720-5.jpg" class="d-block w-100" alt="Imagen-de-Dodge-RAM">
-                                        </div>
+            </div>
+            <div class="modal fade" id="modal-img-8" tabindex="-1" aria-labelledby="modal-label-1" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="modal-label-1">Dodge RAM</h4>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>  
+                        <div class="modal-body">
+                            <div id="carouselExampleControls-7" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="../assets/images/Autos/Dodge-RAM-720-1.jpg" class="d-block w-100" alt="Imagen-de-Dodge-RAM">
                                     </div>
-                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls-7" data-bs-slide="prev">
-                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                        <span class="visually-hidden">Anterior</span>
-                                    </button>
-                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls-7" data-bs-slide="next">
-                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                        <span class="visually-hidden">Siguiente</span>
-                                    </button>
+                                    <div class="carousel-item">
+                                        <img src="../assets/images/Autos/Dodge-RAM-720-2.jpg" class="d-block w-100" alt="Imagen-de-Dodge-RAM">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="../assets/images/Autos/Dodge-RAM-720-3.jpg" class="d-block w-100" alt="Imagen-de-Dodge-RAM">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="../assets/images/Autos/Dodge-RAM-720-4.jpg" class="d-block w-100" alt="Imagen-de-Dodge-RAM">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="../assets/images/Autos/Dodge-RAM-720-5.jpg" class="d-block w-100" alt="Imagen-de-Dodge-RAM">
+                                    </div>
                                 </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls-7" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Anterior</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls-7" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Siguiente</span>
+                                </button>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="card text-center m-2 tarjeta1" style="width: 24rem;">
-                    <img src="../assets/images/Autos/Ford-Raptor-720-1.jpg" class="card-img-top img-fluid tarjeta1__img" alt="Imagen-de-Utilitario-Todoterreno">
-                    <div class="card-body">
-                        <h3 class="card-title letraTexto2">Ford Raptor</h3>
-                        <p class="card-text">KM: 0km</p>
-                        <p class="card-text">Año: 2021</p>
-                        <p class="card-text">Precio: u$s 70.000</p>
-                        <button type="button" class="botonPages" data-bs-toggle="modal" data-bs-target="#modal-img-9">Comprar</button>
-                    </div>
+            </div>
+            <div class="card text-center m-2 tarjeta1" style="width: 24rem;">
+                <img src="../assets/images/Autos/Ford-Raptor-720-1.jpg" class="card-img-top img-fluid tarjeta1__img" id="fordraptor" alt="Imagen-de-Utilitario-Todoterreno">
+                <div class="card-body">
+                    <h3 class="card-title letraTexto2">Ford Raptor</h3>
+                    <p class="card-text">KM: 0km</p>
+                    <p class="card-text">Año: 2021</p>
+                    <p class="card-text">Precio: u$s 70.000</p>
+                    <button class="botonPages"><a href="#"></a>Comprar</button>
+                    <button type="button" class="botonPages" data-bs-toggle="modal" data-bs-target="#modal-img-9">Ver Galeria</button>
                 </div>
-                <div class="modal fade" id="modal-img-9" tabindex="-1" aria-labelledby="modal-label-1" aria-hidden="true">
-                    <div class="modal-dialog modal-lg modal-dialog-centered">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h4 class="modal-title" id="modal-label-1">Dodge RAM</h4>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>  
-                            <div class="modal-body">
-                                <div id="carouselExampleControls-8" class="carousel slide" data-bs-ride="carousel">
-                                    <div class="carousel-inner">
-                                        <div class="carousel-item active">
-                                            <img src="../assets/images/Autos/Ford-Raptor-720-1.jpg" class="d-block w-100" alt="Imagen-de-Ford-Raptor">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="../assets/images/Autos/Ford-Raptor-720-2.jpg" class="d-block w-100" alt="Imagen-de-Ford-Raptor">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="../assets/images/Autos/Ford-Raptor-720-3.jpg" class="d-block w-100" alt="Imagen-de-Ford-Raptor">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="../assets/images/Autos/Ford-Raptor-720-4.jpg" class="d-block w-100" alt="Imagen-de-Ford-Raptor">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="../assets/images/Autos/Ford-Raptor-720-5.jpg" class="d-block w-100" alt="Imagen-de-Ford-Raptor">
-                                        </div>
+            </div>
+            <div class="modal fade" id="modal-img-9" tabindex="-1" aria-labelledby="modal-label-1" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="modal-label-1">Dodge RAM</h4>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>  
+                        <div class="modal-body">
+                            <div id="carouselExampleControls-8" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="../assets/images/Autos/Ford-Raptor-720-1.jpg" class="d-block w-100" alt="Imagen-de-Ford-Raptor">
                                     </div>
-                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls-8" data-bs-slide="prev">
-                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                        <span class="visually-hidden">Anterior</span>
-                                    </button>
-                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls-8" data-bs-slide="next">
-                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                        <span class="visually-hidden">Siguiente</span>
-                                    </button>
+                                    <div class="carousel-item">
+                                        <img src="../assets/images/Autos/Ford-Raptor-720-2.jpg" class="d-block w-100" alt="Imagen-de-Ford-Raptor">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="../assets/images/Autos/Ford-Raptor-720-3.jpg" class="d-block w-100" alt="Imagen-de-Ford-Raptor">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="../assets/images/Autos/Ford-Raptor-720-4.jpg" class="d-block w-100" alt="Imagen-de-Ford-Raptor">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="../assets/images/Autos/Ford-Raptor-720-5.jpg" class="d-block w-100" alt="Imagen-de-Ford-Raptor">
+                                    </div>
                                 </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls-8" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Anterior</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls-8" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Siguiente</span>
+                                </button>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="card text-center m-2 tarjeta1" style="width: 24rem;">
-                    <img src="../assets/images/Autos/GMC-Sierra-720-1.jpg" class="card-img-top img-fluid tarjeta1__img" alt="Imagen-de-Utilitario-Todoterreno">
-                    <div class="card-body">
-                        <h3 class="card-title letraTexto2">GMC-Sierra</h3>
-                        <p class="card-text">KM: 0km</p>
-                        <p class="card-text">Año: 2021</p>
-                        <p class="card-text">Precio: u$s 70.000</p>
-                        <button type="button" class="botonPages" data-bs-toggle="modal" data-bs-target="#modal-img-10">Comprar</button>
-                    </div>
+            </div>
+            <div class="card text-center m-2 tarjeta1" style="width: 24rem;">
+                <img src="../assets/images/Autos/GMC-Sierra-720-1.jpg" class="card-img-top img-fluid tarjeta1__img" alt="Imagen-de-Utilitario-Todoterreno">
+                <div class="card-body">
+                    <h3 class="card-title letraTexto2">GMC-Sierra</h3>
+                    <p class="card-text">KM: 0km</p>
+                    <p class="card-text">Año: 2021</p>
+                    <p class="card-text">Precio: u$s 70.000</p>
+                    <button class="botonPages"><a href="#"></a>Comprar</button>
+                    <button type="button" class="botonPages" data-bs-toggle="modal" data-bs-target="#modal-img-10">Ver Galeria</button>
                 </div>
-                <div class="modal fade" id="modal-img-10" tabindex="-1" aria-labelledby="modal-label-1" aria-hidden="true">
-                    <div class="modal-dialog modal-lg modal-dialog-centered">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h4 class="modal-title" id="modal-label-1">Dodge RAM</h4>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>  
-                            <div class="modal-body">
-                                <div id="carouselExampleControls-9" class="carousel slide" data-bs-ride="carousel">
-                                    <div class="carousel-inner">
-                                        <div class="carousel-item active">
-                                            <img src="../assets/images/Autos/GMC-Sierra-720-1.jpg" class="d-block w-100" alt="Imagen-de-Audi-GMC-Sierra">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="../assets/images/Autos/GMC-Sierra-720-2.jpg" class="d-block w-100" alt="Imagen-de-Audi-GMC-Sierra">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="../assets/images/Autos/GMC-Sierra-720-3.jpg" class="d-block w-100" alt="Imagen-de-Audi-GMC-Sierra">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="../assets/images/Autos/GMC-Sierra-720-4.jpg" class="d-block w-100" alt="Imagen-de-Audi-GMC-Sierra">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="../assets/images/Autos/GMC-Sierra-720-5.jpg" class="d-block w-100" alt="Imagen-de-Audi-GMC-Sierra">
-                                        </div>
+            </div>
+            <div class="modal fade" id="modal-img-10" tabindex="-1" aria-labelledby="modal-label-1" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="modal-label-1">Dodge RAM</h4>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>  
+                        <div class="modal-body">
+                            <div id="carouselExampleControls-9" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="../assets/images/Autos/GMC-Sierra-720-1.jpg" class="d-block w-100" alt="Imagen-de-Audi-GMC-Sierra">
                                     </div>
-                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls-9" data-bs-slide="prev">
-                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                        <span class="visually-hidden">Anterior</span>
-                                    </button>
-                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls-9" data-bs-slide="next">
-                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                        <span class="visually-hidden">Siguiente</span>
-                                    </button>
+                                    <div class="carousel-item">
+                                        <img src="../assets/images/Autos/GMC-Sierra-720-2.jpg" class="d-block w-100" alt="Imagen-de-Audi-GMC-Sierra">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="../assets/images/Autos/GMC-Sierra-720-3.jpg" class="d-block w-100" alt="Imagen-de-Audi-GMC-Sierra">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="../assets/images/Autos/GMC-Sierra-720-4.jpg" class="d-block w-100" alt="Imagen-de-Audi-GMC-Sierra">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="../assets/images/Autos/GMC-Sierra-720-5.jpg" class="d-block w-100" alt="Imagen-de-Audi-GMC-Sierra">
+                                    </div>
                                 </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls-9" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Anterior</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls-9" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Siguiente</span>
+                                </button>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="card text-center m-2 tarjeta1" style="width: 24rem;">
-                    <img src="../assets/images/Autos/Nissan-Frontier-720-1.jpg" class="card-img-top img-fluid tarjeta1__img" alt="Imagen-de-Utilitario-Todoterreno">
-                    <div class="card-body">
-                        <h3 class="card-title letraTexto2">Nissan-Frontier</h3>
-                        <p class="card-text">KM: 0km</p>
-                        <p class="card-text">Año: 2021</p>
-                        <p class="card-text">Precio: u$s 55.000</p>
-                        <button type="button" class="botonPages" data-bs-toggle="modal" data-bs-target="#modal-img-11">Comprar</button>
-                    </div>
+            </div>
+            <div class="card text-center m-2 tarjeta1" style="width: 24rem;">
+                <img src="../assets/images/Autos/Nissan-Frontier-720-1.jpg" class="card-img-top img-fluid tarjeta1__img" alt="Imagen-de-Utilitario-Todoterreno">
+                <div class="card-body">
+                    <h3 class="card-title letraTexto2">Nissan-Frontier</h3>
+                    <p class="card-text">KM: 0km</p>
+                    <p class="card-text">Año: 2021</p>
+                    <p class="card-text">Precio: u$s 55.000</p>
+                    <button class="botonPages"><a href="#"></a>Comprar</button>
+                    <button type="button" class="botonPages" data-bs-toggle="modal" data-bs-target="#modal-img-11">Ver Galeria</button>
                 </div>
-                <div class="modal fade" id="modal-img-11" tabindex="-1" aria-labelledby="modal-label-1" aria-hidden="true">
-                    <div class="modal-dialog modal-lg modal-dialog-centered">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h4 class="modal-title" id="modal-label-1">Dodge RAM</h4>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>  
-                            <div class="modal-body">
-                                <div id="carouselExampleControls-10" class="carousel slide" data-bs-ride="carousel">
-                                    <div class="carousel-inner">
-                                        <div class="carousel-item active">
-                                            <img src="../assets/images/Autos/Nissan-Frontier-720-1.jpg" class="d-block w-100" alt="Imagen-de-Nissan-Frontier">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="../assets/images/Autos/Nissan-Frontier-720-2.jpg" class="d-block w-100" alt="Imagen-de-Nissan-Frontier">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="../assets/images/Autos/Nissan-Frontier-720-3.jpg" class="d-block w-100" alt="Imagen-de-Nissan-Frontier">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="../assets/images/Autos/Nissan-Frontier-720-4.jpg" class="d-block w-100" alt="Imagen-de-Nissan-Frontier">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="../assets/images/Autos/Nissan-Frontier-720-5.jpg" class="d-block w-100" alt="Imagen-de-Nissan-Frontier">
-                                        </div>
+            </div>
+            <div class="modal fade" id="modal-img-11" tabindex="-1" aria-labelledby="modal-label-1" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="modal-label-1">Dodge RAM</h4>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>  
+                        <div class="modal-body">
+                            <div id="carouselExampleControls-10" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="../assets/images/Autos/Nissan-Frontier-720-1.jpg" class="d-block w-100" alt="Imagen-de-Nissan-Frontier">
                                     </div>
-                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls-10" data-bs-slide="prev">
-                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                        <span class="visually-hidden">Anterior</span>
-                                    </button>
-                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls-10" data-bs-slide="next">
-                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                        <span class="visually-hidden">Siguiente</span>
-                                    </button>
+                                    <div class="carousel-item">
+                                        <img src="../assets/images/Autos/Nissan-Frontier-720-2.jpg" class="d-block w-100" alt="Imagen-de-Nissan-Frontier">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="../assets/images/Autos/Nissan-Frontier-720-3.jpg" class="d-block w-100" alt="Imagen-de-Nissan-Frontier">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="../assets/images/Autos/Nissan-Frontier-720-4.jpg" class="d-block w-100" alt="Imagen-de-Nissan-Frontier">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="../assets/images/Autos/Nissan-Frontier-720-5.jpg" class="d-block w-100" alt="Imagen-de-Nissan-Frontier">
+                                    </div>
                                 </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls-10" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Anterior</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls-10" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Siguiente</span>
+                                </button>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="card text-center m-2 tarjeta1" style="width: 24rem;">
-                    <img src="../assets/images/Autos/Toyota-Tundra-720-1.jpg" class="card-img-top img-fluid tarjeta1__img" alt="Imagen-de-Utilitario-Todoterreno">
-                    <div class="card-body">
-                        <h3 class="card-title letraTexto2">Toyota-Tundra</h3>
-                       <p class="card-text">KM: 0km</p>
-                        <p class="card-text">Año: 2021</p>
-                        <p class="card-text">Precio: u$s 70.000</p>
-                        <button type="button" class="botonPages" data-bs-toggle="modal" data-bs-target="#modal-img-12">Comprar</button>
-                    </div>
+            </div>
+            <div class="card text-center m-2 tarjeta1" style="width: 24rem;">
+                <img src="../assets/images/Autos/Toyota-Tundra-720-1.jpg" class="card-img-top img-fluid tarjeta1__img" alt="Imagen-de-Utilitario-Todoterreno">
+                <div class="card-body">
+                    <h3 class="card-title letraTexto2">Toyota-Tundra</h3>
+                   <p class="card-text">KM: 0km</p>
+                    <p class="card-text">Año: 2021</p>
+                    <p class="card-text">Precio: u$s 70.000</p>
+                    <button class="botonPages"><a href="#"></a>Comprar</button>
+                    <button type="button" class="botonPages" data-bs-toggle="modal" data-bs-target="#modal-img-12">Ver Galeria</button>
                 </div>
-                <div class="modal fade" id="modal-img-12" tabindex="-1" aria-labelledby="modal-label-1" aria-hidden="true">
-                    <div class="modal-dialog modal-lg modal-dialog-centered">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h4 class="modal-title" id="modal-label-1">Dodge RAM</h4>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>  
-                            <div class="modal-body">
-                                <div id="carouselExampleControls-11" class="carousel slide" data-bs-ride="carousel">
-                                    <div class="carousel-inner">
-                                        <div class="carousel-item active">
-                                            <img src="../assets/images/Autos/Toyota-Tundra-720-1.jpg" class="d-block w-100" alt="Imagen-de-Toyota-Tundra">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="../assets/images/Autos/Toyota-Tundra-720-2.jpg" class="d-block w-100" alt="Imagen-de-Toyota-Tundra">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="../assets/images/Autos/Toyota-Tundra-720-3.jpg" class="d-block w-100" alt="Imagen-de-Toyota-Tundra">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="../assets/images/Autos/Toyota-Tundra-720-4.jpg" class="d-block w-100" alt="Imagen-de-Toyota-Tundra">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="../assets/images/Autos/Toyota-Tundra-720-5.jpg" class="d-block w-100" alt="Imagen-de-Toyota-Tundra">
-                                        </div>
+            </div>
+            <div class="modal fade" id="modal-img-12" tabindex="-1" aria-labelledby="modal-label-1" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="modal-label-1">Dodge RAM</h4>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>  
+                        <div class="modal-body">
+                            <div id="carouselExampleControls-11" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="../assets/images/Autos/Toyota-Tundra-720-1.jpg" class="d-block w-100" alt="Imagen-de-Toyota-Tundra">
                                     </div>
-                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls-11" data-bs-slide="prev">
-                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                        <span class="visually-hidden">Anterior</span>
-                                    </button>
-                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls-11" data-bs-slide="next">
-                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                        <span class="visually-hidden">Siguiente</span>
-                                    </button>
+                                    <div class="carousel-item">
+                                        <img src="../assets/images/Autos/Toyota-Tundra-720-2.jpg" class="d-block w-100" alt="Imagen-de-Toyota-Tundra">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="../assets/images/Autos/Toyota-Tundra-720-3.jpg" class="d-block w-100" alt="Imagen-de-Toyota-Tundra">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="../assets/images/Autos/Toyota-Tundra-720-4.jpg" class="d-block w-100" alt="Imagen-de-Toyota-Tundra">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="../assets/images/Autos/Toyota-Tundra-720-5.jpg" class="d-block w-100" alt="Imagen-de-Toyota-Tundra">
+                                    </div>
                                 </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls-11" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Anterior</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls-11" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Siguiente</span>
+                                </button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </main>
-
+    </div>
+    <div class="container-fluid">
+        <div class="row d-flex justify-content-center tarjetas">
+            <h2 class="tarjetas__title  text-center m-3 letraTitulo1" id="prueba"> Sedanes de Lujo</h2>
+            <div class="card text-center m-2 tarjeta1" style="width: 24rem;">
+                <img src="../assets/images/Autos/BMW-330-720-1.jpg" class="card-img-top img-fluid tarjeta1__img"  alt="Imagen-de-BMW-330">
+                <div class="card-body">
+                    <h3 class="card-title letraTexto2">BMW 330</h3>
+                    <p class="card-text">KM: 0km</p>
+                    <p class="card-text">Año: 2021</p>
+                    <p class="card-text">Precio: u$s 50.000</p>
+                    <button class="botonPages"><a href="#"></a>Comprar</button>
+                    <button type="button" class="botonPages" data-bs-toggle="modal" data-bs-target="#modal-img-16">Ver Galeria</button>
+                </div>
+            </div>
+            <div class="modal fade" id="modal-img-16" tabindex="-1" aria-labelledby="modal-label-1" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="modal-label-1">BMW 330</h4>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>  
+                        <div class="modal-body">
+                            <div id="carouselExampleControls-16" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="../assets/images/Autos/BMW-330-720-1.jpg" class="d-block w-100" alt="Imagen-de-BMW-330">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="../assets/images/Autos/BMW-330-720-2.jpg" class="d-block w-100" alt="Imagen-de-BMW-330">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="../assets/images/Autos/BMW-330-720-3.jpg" class="d-block w-100" alt="Imagen-de-BMW-330">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls-16" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Anterior</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls-16" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Siguiente</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card text-center m-2 tarjeta1" style="width: 24rem;">
+                <img src="../assets/images/Autos/Audi-A4-720-1.jpg" class="card-img-top img-fluid tarjeta1__img" id="AudiA4" alt="Imagen-de-Audi-A4">
+                <div class="card-body">
+                    <h3 class="card-title letraTexto2">Audi A4</h3>
+                    <p class="card-text">KM: 0km</p>
+                    <p class="card-text">Año: 2021</p>
+                    <p class="card-text">Precio: u$s 50.000</p>
+                    <button class="botonPages"><a href="#"></a>Comprar</button>
+                    <button type="button" class="botonPages" data-bs-toggle="modal" data-bs-target="#modal-img-13">Ver Galeria</button>
+                </div>
+            </div>
+            <div class="modal fade" id="modal-img-13" tabindex="-1" aria-labelledby="modal-label-1" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="modal-label-1">Audi A4</h4>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>  
+                        <div class="modal-body">
+                            <div id="carouselExampleControls-13" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="../assets/images/Autos/Audi-A4-720-1.jpg" class="d-block w-100" alt="Imagen-de-Audi-A4">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="../assets/images/Autos/Audi-A4-720-2.jpg" class="d-block w-100" alt="Imagen-de-Audi-A4">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="../assets/images/Autos/Audi-A4-720-3.jpg" class="d-block w-100" alt="Imagen-de-Audi-A4">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls-13" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Anterior</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls-13" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Siguiente</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card text-center m-2 tarjeta1" style="width: 24rem;">
+                <img src="../assets/images/Autos/Mercedez Benz-A250-720-1.jpg" class="card-img-top img-fluid tarjeta1__img"  alt="Imagen-de-Mercedez-Benz-A-250">
+                <div class="card-body">
+                    <h3 class="card-title letraTexto2">Mercedez Benz A 250</h3>
+                    <p class="card-text">KM: 0km</p>
+                    <p class="card-text">Año: 2021</p>
+                    <p class="card-text">Precio: u$s 50.000</p>
+                    <button class="botonPages"><a href="#"></a>Comprar</button>
+                    <button type="button" class="botonPages" data-bs-toggle="modal" data-bs-target="#modal-img-14">Ver Galeria</button>
+                </div>
+            </div>
+            <div class="modal fade" id="modal-img-14" tabindex="-1" aria-labelledby="modal-label-1" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="modal-label-1">Mercedez Benz A 250</h4>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>  
+                        <div class="modal-body">
+                            <div id="carouselExampleControls-14" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="../assets/images/Autos/Mercedez Benz-A250-720-1.jpg" class="d-block w-100" alt="Imagen-de-Mercedez-Benz-A-250">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="../assets/images/Autos/Mercedez Benz-A250-720-2.jpg" class="d-block w-100" alt="Imagen-de-Mercedez-Benz-A-250">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="../assets/images/Autos/Mercedez Benz-A250-720-3.jpg" class="d-block w-100" alt="Imagen-de-Mercedez-Benz-A-250">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls-14" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Anterior</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls-14" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Siguiente</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card text-center m-2 tarjeta1" style="width: 24rem;">
+                <img src="../assets/images/Autos/Subaru-Impreza-720-1.jpg" id="impreza" class="card-img-top img-fluid tarjeta1__img"  alt="Imagen-de-Subaru-Impreza">
+                <div class="card-body">
+                    <h3 class="card-title letraTexto2">Subaru Impreza</h3>
+                    <p class="card-text">KM: 0km</p>
+                    <p class="card-text">Año: 2021</p>
+                    <p class="card-text">Precio: u$s 50.000</p>
+                    <button class="botonPages"><a href="#"></a>Comprar</button>
+                    <button type="button" class="botonPages" data-bs-toggle="modal" data-bs-target="#modal-img-15">Ver Galeria</button>
+                </div>
+            </div>
+            <div class="modal fade" id="modal-img-15" tabindex="-1" aria-labelledby="modal-label-1" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="modal-label-1">Subaru Impreza</h4>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>  
+                        <div class="modal-body">
+                            <div id="carouselExampleControls-15" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="../assets/images/Autos/Subaru-Impreza-720-1.jpg" class="d-block w-100" alt="Imagen-de-Subaru-Impreza">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="../assets/images/Autos/Subaru-Impreza-720-2.jpg" class="d-block w-100" alt="Imagen-de-Subaru-Impreza">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="../assets/images/Autos/Subaru-Impreza-720-3.jpg" class="d-block w-100" alt="Imagen-de-Subaru-Impreza">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls-15" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Anterior</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls-15" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Siguiente</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
 <!-- Inicio del Footer o Pie de Página -->
 <footer class="footer">
     <div class="footer__titulo letraTitulo1">

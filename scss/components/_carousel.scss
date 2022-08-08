@@ -1,0 +1,10 @@
+.carousel-control-prev, .carousel-control-next  {
+    &:hover {
+        background-color: rgba(8, 8, 8, 0.473);
+    }    
+}
+.filtro-1 {
+    .carousel-control-prev, .carousel-control-next {
+        filter: invert(108%);
+    }
+}

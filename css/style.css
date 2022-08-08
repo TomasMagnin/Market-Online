@@ -109,6 +109,23 @@
   transition: all 0.2s;
 }
 
+.modal-content {
+  background-color: orange;
+  color: whitesmoke;
+}
+
+.btn-close {
+  background-color: whitesmoke;
+}
+
+.carousel-control-prev:hover, .carousel-control-next:hover {
+  background-color: rgba(8, 8, 8, 0.473);
+}
+
+.filtro-1 .carousel-control-prev, .filtro-1 .carousel-control-next {
+  filter: invert(108%);
+}
+
 .botonInstagram {
   background: orangered;
 }
