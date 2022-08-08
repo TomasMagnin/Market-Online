@@ -116,14 +116,20 @@
 
 .btn-close {
   background-color: whitesmoke;
+  background-image: url(../../assets/icon/Close.png);
+  size: 20px;
 }
 
-.carousel-control-prev:hover, .carousel-control-next:hover {
-  background-color: rgba(8, 8, 8, 0.473);
+.carousel-control-next-icon {
+  background-image: url(../../assets/icon/Next.png);
+  background-color: whitesmoke;
+  border-radius: 20px;
 }
 
-.filtro-1 .carousel-control-prev, .filtro-1 .carousel-control-next {
-  filter: invert(108%);
+.carousel-control-prev-icon {
+  background-image: url(../../assets/icon/previous.png);
+  background-color: whitesmoke;
+  border-radius: 20px;
 }
 
 .botonInstagram {
